@@ -102,7 +102,8 @@ Autres documents pédagogiques de Baptiste Mélès
    (http://baptiste.meles.free.fr/site/B.Meles-Travail_perso.pdf,
    2008-2016) ;
 5. « Bibliographie de philosophie » (avec Paul Clavier,
-   [[http://baptiste.meles.free.fr/site/P_Clavier-B_Meles-Bibliographie_philosophie.pdf]], 2022)
+   http://baptiste.meles.free.fr/site/P_Clavier-B_Meles-Bibliographie_philosophie.pdf,
+   2022) 
 6. « Les tables de vérité en braille »
    (http://baptiste.meles.free.fr/site/B.Meles-Table_verite_braille.pdf,
    2011).

@@ -23,3 +23,7 @@ echo
 
 echo "À"
 grep 'à ' capes*.txt agregation*.txt ens*.txt
+echo
+
+echo "ESPACES EN FIN DE LIGNE"
+grep -E ' +$' capes*.txt agregation*.txt ens*.txt

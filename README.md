@@ -18,7 +18,10 @@ centaine de concours :
 Fichier PDF
 -----------
 
-Un fichier PDF de plus de 1000 pages contient le classement de ces sujets :
+Le fichier PDF de plus de 1000 pages
+`BMeles-9000_sujets_dissertation_philosophie.pdf` (dont le nom n'a pas
+été changé depuis la première version de ce document) contient le
+classement des sujets de dissertation :
 
 1. par ordre alphabétique ;
 2. par concours ;

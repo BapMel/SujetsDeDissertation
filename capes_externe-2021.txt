@@ -94,7 +94,7 @@ Y a-t-il des arts mineurs ?
 Qu'est-ce qu'un juste salaire ?
 La démonstration
 Le hasard peut-il être un concept explicatif ?La morale doit-elle s'adapter à la réalité ?
-« À chacun sa morale. »
+« À chacun sa morale »
 Est-il raisonnable d'avoir des certitudes ?
 Le ressentiment
 La liberté est-elle une illusion ?
@@ -112,7 +112,7 @@ L'abstraction
 Le temps est-il destructeur ?
 La réalisation du devoir exclut-elle toute forme de plaisir ?
 Le langage et l'image
-« Tu dois, donc tu peux. »
+« Tu dois, donc tu peux »
 Qu'est-ce qui est intolérable ?
 Un plaisir peut-il être désintéressé ?
 La force des lois
@@ -120,7 +120,7 @@ Y a-t-il plusieurs vérités ?
 Qu'est-ce qu'une occasion ?
 Peut-on se passer de métaphysique ?
 Avoir de l'expérience
-« La vieillesse est un naufrage. »
+« La vieillesse est un naufrage »
 La révolution
 Quelle est la valeur culturelle de la science ?
 Qu'est-ce qu'une bonne traduction ?
@@ -175,7 +175,7 @@ Peut-on avoir raison tout seul ?
 La souveraineté
 Pourquoi y a-t-il plusieurs sciences ?
 Le dégoût
-« Il y a un temps pour tout. »
+« Il y a un temps pour tout »
 La politique est-elle affaire d'expérience ou de théorie ?
 Le temporel et le spirituel
 Le sage est-il insensible ?
@@ -193,7 +193,7 @@ La fuite du temps
 Hypothèse et vérité
 Le libre échange
 La beauté nous rend-elle meilleurs ?
-« Du passé, faisons table rase. »
+« Du passé, faisons table rase »
 Le développement des techniques fait-il reculer la croyance ?
 Être citoyen du monde
 Que vaut le conseil : « vivez avec votre temps » ?
@@ -358,7 +358,7 @@ Faut-il mériter son bonheur ?
 Rêver
 L'irrespect
 À quoi sert la vérité ?
-« Tradition n'est pas raison. »
+« Tradition n'est pas raison »
 Que signifie l'expression : « l'histoire jugera » ?
 La gloire
 La force de l'esprit
@@ -432,7 +432,7 @@ Devenir humain
 Y a-t-il un devoir d'émancipation ?
 Sommes-nous adaptés au monde de la technique ?
 Peut-il y avoir des conflits de devoirs ?
-« C'est plus fort que moi. »
+« C'est plus fort que moi »
 À quoi reconnaît-on qu'une science est une science ?
 Le bien n'est-il réalisable que comme moindre mal ?
 Qu'est-ce qu'un cas de conscience ?

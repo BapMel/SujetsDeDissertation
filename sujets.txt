@@ -5,7 +5,7 @@ Abolir la propriété
 Abstraire, est-ce se couper du réel ?
 Abuser du pouvoir
 À chacun des goûts
-« À chacun sa morale. »
+« À chacun sa morale »
 À chacun sa morale
 « À chacun sa vérité »
 À chacun sa vérité
@@ -491,7 +491,7 @@ Certitude et vérité
 Cesser d'espérer
 « C'est humain »
 « C'est la vie »
-« C'est plus fort que moi. »
+« C'est plus fort que moi »
 « C’est pour ton bien »
 C'est pour ton bien
 « C'est tout un art »
@@ -1120,7 +1120,7 @@ Droits de l'homme ou droits du citoyen ?
 Droits et devoirs
 Droits et devoirs sont-ils réciproques ?
 Droits, garanties, protection
-« Du passé, faisons table rase. »
+« Du passé, faisons table rase »
 Du passé pouvons-nous faire table rase ?
 Durée et instant
 Durer
@@ -2002,7 +2002,7 @@ Illégalité et injustice
 Illusion et apparence
 « Il ne lui manque que la parole »
 Il y a
-« Il y a un temps pour tout. »
+« Il y a un temps pour tout »
 Image et concept
 Image et idée
 Image, signe, symbole
@@ -4745,7 +4745,7 @@ La vie est-elle un songe ?
 La vie éternelle
 La vie heureuse
 La vieillesse
-« La vieillesse est un naufrage. »
+« La vieillesse est un naufrage »
 La vie intérieure
 La vie moderne
 La vie morale
@@ -6889,7 +6889,7 @@ L'État a-t-il le droit de contrôler notre habillement ?
 L'État a-t-il pour but de maintenir l'ordre ?
 L'État a-t-il pour finalité de maintenir l'ordre ?
 L'État a-t-il tous les droits ?
-« L'État, c'est moi. »
+« L'État, c'est moi »
 L'État contribue-t-il à pacifier les relations entre les hommes ?
 L'état de droit
 L'État de droit
@@ -11555,7 +11555,6 @@ Tradition et nouveauté
 Tradition et raison
 Tradition et transmission
 Tradition et vérité
-« Tradition n'est pas raison. »
 « Tradition n'est pas raison »
 Traduction, Trahison
 Traduire
@@ -11592,7 +11591,7 @@ Tricher
 « Trop beau pour être vrai »
 Trouver sa voie
 Tu aimeras ton prochain comme toi-même
-« Tu dois, donc tu peux. »
+« Tu dois, donc tu peux »
 Tuer et laisser mourir
 Tuer le temps
 « Tu ne tueras point »

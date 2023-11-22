@@ -1,33 +1,52 @@
 #!/bin/zsh
 
+echo "ESPACES MULTIPLES"
+grep '  ' capes*.txt agregation*.txt ens*.txt
+sed -i s/' +'/' '/g agregation_*.txt capes_*.txt ens-ulm-*.txt
+echo
+
 echo "DEUX-POINTS"
 grep ' :' capes*.txt agregation*.txt ens*.txt
+sed -i s/' :'/' :'/g agregation_*.txt capes_*.txt ens-ulm-*.txt
 echo
 
 echo "POINT-VIRGULE"
 grep ' ;' capes*.txt agregation*.txt ens*.txt
+sed -i s/' ;'/' ;'/g agregation_*.txt capes_*.txt ens-ulm-*.txt
+echo
+
+echo "APOSTROPHE"
+grep '’' capes*.txt agregation*.txt ens*.txt
+sed -i s/’/\'/g agregation_*.txt capes_*.txt ens-ulm-*.txt
 echo
 
 echo "POINT D'EXCLAMATION"
 grep ' !' capes*.txt agregation*.txt ens*.txt
+sed -i s/' !'/' !'/g agregation_*.txt capes_*.txt ens-ulm-*.txt
 echo
 
 echo "POINT D'INTERROGATION"
 grep ' ?' capes*.txt agregation*.txt ens*.txt
+sed -i s/' ?'/' ?'/g agregation_*.txt capes_*.txt ens-ulm-*.txt
 echo
 
 echo "GUILLEMETS"
 grep '« ' capes*.txt agregation*.txt ens*.txt
 grep ' »' capes*.txt agregation*.txt ens*.txt
+sed -i s/'« '/'« '/g agregation_*.txt capes_*.txt ens-ulm-*.txt
+sed -i s/' »'/' »'/g agregation_*.txt capes_*.txt ens-ulm-*.txt
 echo
 
 echo "À"
 grep 'à ' capes*.txt agregation*.txt ens*.txt
+sed -i s/'à '/'à '/g agregation_*.txt capes_*.txt ens-ulm-*.txt
 echo
 
 echo "ESPACES EN FIN DE LIGNE"
 grep -E ' +$' capes*.txt agregation*.txt ens*.txt
+sed -i s/' $'//g agregation_*.txt capes_*.txt ens-ulm-*.txt
 echo
 
 echo "POINT EN FIN DE CITATION"
 grep '\. »' capes*.txt agregation*.txt ens*.txt
+sed -i s/'\. »'/' »'/g agregation_*.txt capes_*.txt ens-ulm-*.txt

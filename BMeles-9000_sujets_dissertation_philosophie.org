@@ -43,6 +43,10 @@ Cette liste est la compilation de tous les sujets donnés aux épreuves
 L'auteur vous sera reconnaissant de lui signaler toute coquille
 ou erreur[fn:1].
 
+Tous les fichiers et programmes ayant servi à produire le présent
+document sont archivés et partagés de manière pérenne à l'adresse
+https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/BapMel/SujetsDeDissertation.
+
 
 \newpage
 
@@ -50,7 +54,7 @@ ou erreur[fn:1].
 
 \newpage
 
-* Liste complète
+* Tri par ordre alphabétique
 
 \noindent
 #+BEGIN_SRC sh :results output verbatim raw :exports results

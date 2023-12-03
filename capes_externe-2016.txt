@@ -2,7 +2,7 @@ Faut-il du passé faire table rase ?
 La vie est-elle sacrée ?
 L'homme est-il l'artisan de sa dignité ?
 La morale est-elle affaire de convention ?
-N'y a-t-il de savoir que livresque ?
+N'y a-t-il de savoir que livresque ?
 Qu'est-ce qu'un esprit libre ?
 La force et le droit
 Le dedans et le dehors
@@ -84,7 +84,7 @@ Qu'est-ce que composer une œuvre ?
 Le réel est-il rationnel ?
 Respect et tolérance
 À quoi la perception donne-t-elle accès ?
-N'y a-t-il de droit qu'écrit ?
+N'y a-t-il de droit qu'écrit ?
 Justice et violence
 L'autorité
 Peut-on ignorer volontairement la vérité ?
@@ -426,7 +426,7 @@ Faut-il faire confiance au progrès technique ?
 Le droit peut-il échapper à l'histoire ?
 Être et devenir
 Peut-on douter de soi ?
-N'y a-t-il de science que de ce qui est mathématisable ?
+N'y a-t-il de science que de ce qui est mathématisable ?
 Qu'est-ce qu'un problème scientifique ?
 Qu'est-ce qu'être normal ?
 Action et contemplation

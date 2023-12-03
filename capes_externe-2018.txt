@@ -81,7 +81,7 @@ Faut-il toujours faire son devoir ?
 Y a-t-il un savoir de la justice ?
 Vivre et exister
 De quoi les logiciens parlent-ils ?
-N'y a-t-il de vérités que scientifiques ?
+N'y a-t-il de vérités que scientifiques ?
 Qu'attendons-nous de la technique ?
 Y a-t-il une science politique ?
 Le malheur est-il injuste ?
@@ -306,7 +306,7 @@ Connaît-on la vie ou le vivant ?
 Le réel n'est-il qu'un ensemble de contraintes ?
 Le mensonge peut-il être au service de la vérité ?
 Qu'est-ce qui fait l'unité d'un organisme ?
-N'y a-t-il de vérité que vérifiable ?
+N'y a-t-il de vérité que vérifiable ?
 La technique nous oppose-t-elle à la nature ?
 La science peut-elle se passer de l'idée de finalité ?
 Y a-t-il des vérités indémontrables ?

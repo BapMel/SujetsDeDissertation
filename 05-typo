@@ -50,3 +50,8 @@ echo
 echo "POINT EN FIN DE CITATION"
 grep '\. »' capes*.txt agregation*.txt ens*.txt
 sed -i s/'\. »'/' »'/g agregation_*.txt capes_*.txt ens-ulm-*.txt
+echo
+
+echo "Y A-T-IL"
+grep 'y a-t-il' capes*.txt agregation*.txt ens*.txt
+sed -i s/'y a-t-il'/'y a-t-il'/g agregation_*.txt capes_*.txt ens-ulm-*.txt

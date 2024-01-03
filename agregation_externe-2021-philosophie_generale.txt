@@ -3,13 +3,13 @@ Les choses ont-elles quelque chose en commun ?
 L'argent
 L'intérêt général n'est-il qu'un mythe ?
 Démontrer et argumenter
-Y-a-t-il des plaisirs simples ?
+Y a-t-il des plaisirs simples ?
 Les vérités sont-elles toujours démontrables ?
 L'amour et l'amitié
 La peur
 Le concept et l'image
 Existe-t-il des degrés de vérité ?
-Y-a-t-il des leçons de l'histoire ?
+Y a-t-il des leçons de l'histoire ?
 Pourquoi nous trompons-nous ?
 Être citoyen du monde
 Y a-t-il des plaisirs purs ?
@@ -96,7 +96,7 @@ Qu'est-ce qu'une erreur ?
 Qu'est-ce qu'une éducation réussie ?
 Qu'est-ce qu'une classe sociale ?
 Y a-t-il des idées innées ?
-À quoi suis-je obligé ?
+À quoi suis-je obligé ?
 Qu'est-ce qu'un problème ?
 Que doit-on à autrui ?
 Qu'est-ce qui a du sens ?
@@ -299,4 +299,4 @@ Avoir peur
 Au nom du peuple
 Avoir raison
 Art et apparence
-À quoi servent les croyances ?
+À quoi servent les croyances ?

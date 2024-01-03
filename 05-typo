@@ -1,8 +1,17 @@
 #!/bin/zsh
 
+echo "MINUSCULE EN DÉBUT DE LIGNE"
+egrep '^[a-z]' capes*.txt agregation*.txt ens*.txt
+echo
+
 echo "ESPACES MULTIPLES"
 grep '  ' capes*.txt agregation*.txt ens*.txt
 sed -i s/' +'/' '/g agregation_*.txt capes_*.txt ens-ulm-*.txt
+echo
+
+echo "SIGNES DOUBLES"
+egrep '[^  ][\?!;:]' capes*.txt agregation*.txt ens*.txt
+sed -i s/'\([^  ]\)\([\?!;:]\)'/'\1 \2'/g agregation_*.txt capes_*.txt ens-ulm-*.txt
 echo
 
 echo "DEUX-POINTS"
@@ -38,8 +47,8 @@ sed -i s/' »'/' »'/g agregation_*.txt capes_*.txt ens-ulm-*.txt
 echo
 
 echo "À"
-grep 'à ' capes*.txt agregation*.txt ens*.txt
-sed -i s/'à '/'à '/g agregation_*.txt capes_*.txt ens-ulm-*.txt
+grep -i 'à ' capes*.txt agregation*.txt ens*.txt
+sed -i s/'\([Àà]\) '/'\1 '/g agregation_*.txt capes_*.txt ens-ulm-*.txt
 echo
 
 echo "ESPACES EN FIN DE LIGNE"
@@ -48,10 +57,24 @@ sed -i s/' $'//g agregation_*.txt capes_*.txt ens-ulm-*.txt
 echo
 
 echo "POINT EN FIN DE CITATION"
-grep '\. »' capes*.txt agregation*.txt ens*.txt
-sed -i s/'\. »'/' »'/g agregation_*.txt capes_*.txt ens-ulm-*.txt
+grep '[^\.]\. »' capes*.txt agregation*.txt ens*.txt
+sed -i s/'[^\.]\. »'/' »'/g agregation_*.txt capes_*.txt ens-ulm-*.txt
 echo
 
 echo "Y A-T-IL"
-grep 'y a-t-il' capes*.txt agregation*.txt ens*.txt
+grep -i 'y a-t-il' capes*.txt agregation*.txt ens*.txt
 sed -i s/'y a-t-il'/'y a-t-il'/g agregation_*.txt capes_*.txt ens-ulm-*.txt
+sed -i s/'Y a-t-il'/'Y a-t-il'/g agregation_*.txt capes_*.txt ens-ulm-*.txt
+sed -i s/'y-a'/'y a'/g agregation_*.txt capes_*.txt ens-ulm-*.txt
+sed -i s/'Y-a'/'Y a'/g agregation_*.txt capes_*.txt ens-ulm-*.txt
+echo
+
+echo "DEUX SUJETS SUR UNE LIGNE"
+egrep '\? [^\n]' capes*.txt agregation*.txt ens*.txt
+echo
+
+echo "ORTHOGRAPHE"
+grep "Etat" agregation_*.txt capes_*.txt ens-ulm-*.txt
+grep "Etre" agregation_*.txt capes_*.txt ens-ulm-*.txt
+sed -i s/'Etat'/'État'/g agregation_*.txt capes_*.txt ens-ulm-*.txt
+sed -i s/'Etre'/'Être'/g agregation_*.txt capes_*.txt ens-ulm-*.txt

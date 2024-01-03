@@ -1,6 +1,6 @@
 #+AUTHOR: Baptiste Mélès
-#+TITLE: 12 000 sujets de dissertation de philosophie 
-#+DATE: 14 novembre 2023
+#+TITLE: 14 000 sujets de dissertation de philosophie
+#+DATE: 3 janvier 2024
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
 #+OPTIONS: c:nil creator:nil d:(not "LOGBOOK") date:t e:t email:nil
 #+OPTIONS: f:t inline:t num:t p:nil pri:nil stat:t tags:t tasks:t tex:t
@@ -27,14 +27,14 @@
 # exécuter sans confirmer.
 
 On trouvera ici, classés par ordre alphabétique puis par concours et
-par type, quelque 12 000 sujets de dissertation de philosophie.
+par type, quelque 14 000 sujets de dissertation de philosophie.
 
 Cette liste est la compilation de tous les sujets donnés aux épreuves
-écrites et orales de près d'une centaine de concours :
-1. agrégation externe (15 années : 2008-2022) ;
-2. agrégation interne (14 années : 2009-2022) ;
-3. CAPES externe (13 années : 2010-2022) ; 
-4. CAPES interne (12 années : 2011-2022) ; 
+écrites et orales de plus d'une centaine de concours :
+1. agrégation externe (20 années : 2003-2022) ;
+2. agrégation interne (18 années : 2005-2022) ;
+3. CAPES externe (19 années : 2004-2022) ;
+4. CAPES interne (12 années : 2011-2022) ;
 5. École normale supérieure de Paris, concours A​/​L (21 années :
    2002-2022) ;
 5. École normale supérieure de Paris, concours B​/​L (21 années :
@@ -63,7 +63,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 
 * Tri par concours
 
-** Agrégation 
+** Agrégation
 
 \noindent
 #+BEGIN_SRC sh :results output verbatim raw :exports results
@@ -74,7 +74,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** Agrégation externe
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./01-agregation_externe | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -82,15 +82,15 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** Agrégation interne
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./01-agregation_interne | sed s/'$'/' \\\\'/g
 #+END_SRC
 
 
-** CAPES 
+** CAPES
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./02-capes | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -98,7 +98,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** CAPES externe
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./02-capes_externe | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -106,7 +106,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** CAPES interne
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./02-capes_interne | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -114,7 +114,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** ENS A​/​L
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./03-ens-ulm-al | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -122,7 +122,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** ENS B​/​L
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./03-ens-ulm-bl | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -131,7 +131,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** Philosophie générale
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./01-agregation-philosophie_generale | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -139,7 +139,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** Esthétique
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./01-agregation-esthetique | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -147,7 +147,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** Logique et épistémologie
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./01-agregation-logique_epistemologie | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -155,7 +155,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** Métaphysique
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./01-agregation-metaphysique | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -163,7 +163,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** Morale
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./01-agregation-morale | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -171,7 +171,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** Politique
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./01-agregation-politique | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -179,7 +179,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** Sciences humaines
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./01-agregation-sciences_humaines | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -189,7 +189,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** Question
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./00-sujets | grep '?' | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -197,21 +197,21 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** Question en « peut »
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./00-sujets | grep -i 'peut' | sed s/'$'/' \\\\'/g
 #+END_SRC
 
 
 ** Mot unique
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./00-sujets | grep -v " " | grep -v "L'" | sed s/'$'/' \\\\'/g
 #+END_SRC
 
 
 ** Le X
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./00-sujets | egrep  "^(Le |La |Les |L')\w+$" | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -219,7 +219,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** X et Y
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./00-sujets | grep ' et ' | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -227,7 +227,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** X ou Y
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./00-sujets | grep ' ou ' | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -235,7 +235,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 ** Citation
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results 
+#+BEGIN_SRC sh :results output verbatim raw :exports results
 ./00-sujets | grep '«' | sed s/'$'/' \\\\'/g
 #+END_SRC
 
@@ -260,5 +260,3 @@ Université de Lorraine) :
 6. « Les tables de vérité en braille »
    (http://baptiste.meles.free.fr/site/B.Meles-Table_verite_braille.pdf,
    2011).
-
-

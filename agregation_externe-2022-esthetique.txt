@@ -2,7 +2,7 @@
 Apprend-on à percevoir la beauté ?
 Apprendre à voir
 À quoi l'art est-il bon ?
-À quoi reconnaît-on une œuvre d'art?
+À quoi reconnaît-on une œuvre d'art ?
 À quoi sert la critique ?
 Art et abstraction
 Art et artifice
@@ -63,7 +63,7 @@ La forme et la couleur
 La grâce
 La laideur
 La laideur est-elle une valeur esthétique ?
-La laideur est-elle une valeur esthétique?
+La laideur est-elle une valeur esthétique ?
 La littérature est-elle la mémoire de l'humanité ?
 L'amateur
 L'amateur
@@ -102,7 +102,7 @@ L'art est-il ce qui permet de partager ses émotions ?
 L'art est-il le miroir du monde ?
 L'art est-il objet de compréhension ?
 L'art est-il politique ?
-L'art est-il révolutionnaire?
+L'art est-il révolutionnaire ?
 L'art est-il une valeur ?
 L'art est-il un langage ?
 L'art est-il un langage universel ?
@@ -125,8 +125,8 @@ L'art n'est-il qu'apparence ?
 L'art n'est-il qu'un artifice ?
 L'art n'est-il qu'une affaire d'esthétique ?
 L'art nous donne-t-il des raisons d'espérer ?
-L'art nous libère-t-il de l'insignifiance?
-L'art nous permet-il de lutter contre l'irréversibilité?
+L'art nous libère-t-il de l'insignifiance ?
+L'art nous permet-il de lutter contre l'irréversibilité ?
 L'art officiel
 L'art peut-il changer le monde ?
 L'art peut-il être brut ?
@@ -280,12 +280,12 @@ Qu'est-ce qu'une œuvre d'art ?
 Qu'est-ce qu'une œuvre d'art réussie ?
 Qu'est-ce qu'une œuvre d'art réussie ?
 Qu'est-ce qu'un faux ?
-Qu'est-ce qu'un modèle?
+Qu'est-ce qu'un modèle ?
 Qu'est-ce qu'un paysage ?
 Qu'est-ce qu'un spectacle ?
 Que trouve-t-on dans ce que l'on trouve beau ?
 Qu'expriment les œuvres d'art ?
-Qui donne la norme du goût?
+Qui donne la norme du goût ?
 Regarder une œuvre d'art
 Ressent-on ou apprécie-t-on l'art ?
 Savoir faire

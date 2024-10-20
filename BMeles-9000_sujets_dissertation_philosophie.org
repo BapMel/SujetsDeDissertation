@@ -1,6 +1,6 @@
 #+AUTHOR: Baptiste Mélès
 #+TITLE: 14 000 sujets de dissertation de philosophie
-#+DATE: 3 janvier 2024
+#+DATE: 20 octobre 2024
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
 #+OPTIONS: c:nil creator:nil d:(not "LOGBOOK") date:t e:t email:nil
 #+OPTIONS: f:t inline:t num:t p:nil pri:nil stat:t tags:t tasks:t tex:t
@@ -31,14 +31,14 @@ par type, quelque 14 000 sujets de dissertation de philosophie.
 
 Cette liste est la compilation de tous les sujets donnés aux épreuves
 écrites et orales de plus d'une centaine de concours :
-1. agrégation externe (20 années : 2003-2022) ;
-2. agrégation interne (18 années : 2005-2022) ;
-3. CAPES externe (19 années : 2004-2022) ;
-4. CAPES interne (12 années : 2011-2022) ;
-5. École normale supérieure de Paris, concours A​/​L (21 années :
-   2002-2022) ;
-5. École normale supérieure de Paris, concours B​/​L (21 années :
-   2002-2022).
+1. agrégation externe (21 années : 2003-2023) ;
+2. agrégation interne (20 années : 2005-2024) ;
+3. CAPES externe (20 années : 2004-2023) ;
+4. CAPES interne (13 années : 2011-2023) ;
+5. École normale supérieure de Paris, concours A​/​L (22 années :
+   2002-2023) ;
+5. École normale supérieure de Paris, concours B​/​L (22 années :
+   2002-2023).
 
 L'auteur vous sera reconnaissant de lui signaler toute coquille
 ou erreur[fn:1].
@@ -194,7 +194,7 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 #+END_SRC
 
 
-** Question totale (oui/non)
+** Question totale (en oui/non)
 \noindent
 #+BEGIN_SRC sh :results output verbatim raw :exports results
 ./06-toutes_questions_totales | sed s/'^- '// | sed s/'$'/' \\\\'/g
@@ -253,8 +253,17 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 
 * Footnotes
 
-[fn:1] Documents pédagogiques de Baptiste Mélès (CNRS, AHP-PReST,
-Université de Lorraine) :
+[fn:1] Baptiste Mélès est chargé de recherche au CNRS, attaché aux
+Archives Henri-Poincaré—PReST (CNRS, Université de Lorraine). Ses
+recherches portent sur les relations entre la philosophie, les sciences
+formelles (logique, mathématiques, informatique) et la linguistique. Il
+étudie en particulier l'histoire structurale de la philosophie de Jules
+Vuillemin, la philosophie mathématique de Jean Cavaillès et d'Albert
+Lautman, et propose de lire les textes de programmes informatiques comme
+des textes à part entière. Il est l'auteur des /Classifications des
+systèmes philosophiques/ (Paris, Vrin, 2016).
+
+Autres documents pédagogiques du même auteur :
 1. « Méthode de la dissertation philosophique »
    (http://baptiste.meles.free.fr/site/B.Meles-Methode_dissertation.pdf,
    2010-2022) ;

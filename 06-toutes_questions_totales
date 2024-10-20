@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+# nombre="10"
+filtre='\?'
+questions_partielles="(Qu(i|e)|(À|De)[  ]qu((|o)i|el)|Qu'est-ce|(Dans|En)[  ]qu(el|oi)|Combien|Comment|Où|Quand|Pourquoi)"
+
+./00-sujets | \
+    grep "$filtre" | \
+    egrep -v "$questions_partielles" | \
+#    shuf -n"$nombre" | \
+    sed s/'^'/'- '/g

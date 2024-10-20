@@ -194,6 +194,18 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 #+END_SRC
 
 
+** Question totale (oui/non)
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./06-toutes_questions_totales | sed s/'^- '// | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+** Question partielle (autre que oui/non)
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./06-toutes_questions_partielles | sed s/'^- '// | sed s/'$'/' \\\\'/g
+#+END_SRC
+
 ** Question en « peut »
 
 \noindent

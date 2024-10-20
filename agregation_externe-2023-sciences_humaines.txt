@@ -1,7 +1,7 @@
 À quoi reconnaît-on un comportement humain ?
 La hiérarchie des cultures
 Quelle place les sciences humaines doivent-elles accorder à la subjectivité ?
-Peut-il y avoir une science des signes ?
+Peut-il y avoir une science des signes ?
 Comment connaître l'autre ?
 L'objectivité des sciences humaines
 Comment déterminer le sens d'une conduite ?
@@ -80,7 +80,7 @@ L'habitation
 La société peut-elle être objet de connaissance ?
 Y a-t-il une hiérarchie des sciences sociales ?
 Terres et territoires
-Peut-il y avoir une science de l'éducation ?
+Peut-il y avoir une science de l'éducation ?
 L'économie a-t-elle des lois ?
 La famille
 La méthode en sciences sociales
@@ -127,7 +127,7 @@ Les choses humaines
 Déterminisme naturel et déterminisme social
 À quoi bon les systèmes ?
 Quel est l'homme de l'ethnologie ?
-La connaissance de l'histoire nous rend-t-elle plus libres ?
+La connaissance de l'histoire nous rend-elle plus libres ?
 La responsabilité envers les générations futures
 Sciences humaines et vérité
 Puis-je juger une culture à laquelle je n'appartiens pas ?
@@ -311,13 +311,13 @@ Langue et langage
 L'observation participante
 La méthode statistique
 À quelle objectivité peuvent prétendre les sciences sociales ?
-Peut-il y avoir une ethnologie non ethnocentriste ?
+Peut-il y avoir une ethnologie non ethnocentriste ?
 La sociologie est-elle une physique sociale ?
 Explication et compréhension
 Comment les sciences sociales expliquent-elles l'irrationnel ?
 Existe-t-il des états mentaux collectifs ?
 La sociologie est-elle déterministe ?
-Peut-il y avoir une anthropologie non anthropocentriste ?
+Peut-il y avoir une anthropologie non anthropocentriste ?
 La reproduction
 La sociologie est-elle déterministe ?
 L'homo œconomicus est-il rationnel ?

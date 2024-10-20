@@ -1,6 +1,6 @@
-Admettre le hasard est-ce nier l'ordre de la nature ?
-Agir par devoir est-ce évaluer les conséquences de ses actes
-Agir moralement est-ce lutter contre soi-même ?
+Admettre le hasard, est-ce nier l'ordre de la nature ?
+Agir par devoir, est-ce évaluer les conséquences de ses actes
+Agir moralement, est-ce lutter contre soi-même ?
 Comment se libérer du temps ?
 Commettre une faute
 Dans quelle mesure suis-je responsable de mon inconscient ?
@@ -8,7 +8,7 @@ Entre le vrai et le faux y a-t-il une place pour le probable ?
 Est-ce un devoir de rechercher la vérité ?
 Est-il toujours possible de faire ce que l'on dit ?
 Être ou ne pas être ?
-Être religieux est-ce nécessairement être dogmatique ?
+Être religieux, est-ce nécessairement être dogmatique ?
 Existe-t-il une science de la morale ?
 Faut-il avoir foi en la raison ?
 Faut-il avoir peur de la nature ?
@@ -73,7 +73,7 @@ Sommes-nous faits pour vivre en société ?
 Tuer le temps
 Un acte inconscient est-il nécessairement un acte involontaire ?
 Pourquoi faire l'hypothèse de l'inconscient ?
-Vivre sans mémoire est-ce être libre ?
+Vivre sans mémoire, est-ce être libre ?
 Vouloir et pouvoir
 Y a-t-il une logique de l'inconscient ?
 Y a-t-il une rationalité dans la religion ?

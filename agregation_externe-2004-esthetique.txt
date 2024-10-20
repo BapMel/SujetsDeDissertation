@@ -148,8 +148,8 @@ Le beau est-il dicible ?
 Le beau est-il dicible ?
 Le chant et le cri
 Le chant et le cri
-Le chef d'œuvre
-Le chef d'œuvre
+Le chef-d'œuvre
+Le chef-d'œuvre
 Le cinéma est-il un art ?
 Le cinéma est-il un art ?
 Le comédien
@@ -266,7 +266,7 @@ Musique et poésie
 Musique et poésie
 Musique et rhétorique
 Musique et rhétorique
-Peindre un paysage est-ce représenter la nature ?
+Peindre un paysage, est-ce représenter la nature ?
 Peinture et abstraction
 Peinture et abstraction
 Peinture et photographie

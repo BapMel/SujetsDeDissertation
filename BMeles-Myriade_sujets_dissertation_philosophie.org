@@ -1,5 +1,5 @@
 #+AUTHOR: Baptiste Mélès
-#+TITLE: Myriade de sujets de dissertation de philosophie
+#+TITLE: Myriade des sujets de dissertation philosophique
 #+DATE: 7 novembre 2024
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
 #+OPTIONS: c:nil creator:nil d:(not "LOGBOOK") date:t e:t email:nil
@@ -26,12 +26,37 @@
 # Mettre la variable org-confirm-babel-evaluate sur nil pour tout
 # exécuter sans confirmer.
 
-On trouvera ici quelque 15 000 sujets de dissertation de philosophie.
-Ils sont successivement classés par ordre alphabétique, par concours,
-par thème et par type.
+La « Myriade des sujets de dissertation philosophique » est une
+compilation de quelque 15 000 sujets de dissertation de philosophie,
+classés par ordre alphabétique, par concours, par thème et par type.
 
-Cette liste est la compilation de tous les sujets donnés aux épreuves
-écrites et orales de plus d'une centaine de concours :
+Elle peut être utile :
+- aux étudiantes et étudiants souhaitant se préparer aux examens ou aux
+  concours ;
+- aux enseignantes et enseignants de méthodologie philosophique
+  souhaitant montrer quel type de traitement appelle chaque type
+  de sujet (question totale, couple de notion, etc.) ;
+- aux examinatrices et examinateurs souhaitant reprendre un sujet déjà
+  donné ou au contraire s'assurer qu'un sujet ne l'a jamais été.
+
+Cette méthode peut être utilisée en complément de la « Méthode de la
+dissertation philosophique » du même auteur
+(http://baptiste.meles.free.fr/site/B.Meles-Methode_dissertation.pdf).
+
+Tous les fichiers et programmes ayant servi à produire le présent
+document, ainsi que sa version la plus récente, sont archivés et
+partagés de manière pérenne sur Software Heritage à l'adresse
+https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/BapMel/SujetsDeDissertation.
+
+L'auteur vous sera reconnaissant de lui signaler toute coquille
+ou erreur.
+
+
+
+  \section*{Concours compilés}
+
+Sont compilés ici tous les sujets donnés aux épreuves écrites et orales
+de plus d'une centaine de concours :
 1. agrégation externe (22 années : 2003-2024) ;
 2. agrégation interne (20 années : 2005-2024) ;
 3. CAPES externe (21 années : 2004-2024) ;
@@ -41,12 +66,42 @@ Cette liste est la compilation de tous les sujets donnés aux épreuves
 5. École normale supérieure de Paris, concours B​/​L (22 années :
    2002-2023).
 
-L'auteur vous sera reconnaissant de lui signaler toute coquille
-ou erreur[fn:1].
 
-Tous les fichiers et programmes ayant servi à produire le présent
-document sont archivés et partagés de manière pérenne à l'adresse
-https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/BapMel/SujetsDeDissertation.
+\section*{L'auteur}
+
+\subsection*{Présentation}
+
+Baptiste Mélès est chargé de recherche au CNRS, attaché aux Archives
+Henri-Poincaré—PReST (CNRS, Université de Lorraine). Il étudie les
+relations entre la philosophie, les sciences formelles (logique,
+mathématiques, informatique) et la linguistique.
+
+Il travaille sur l'histoire structurale de la philosophie de Jules
+Vuillemin, la philosophie mathématique de Jean Cavaillès et d'Albert
+Lautman, et étudie les textes de programmes informatiques comme des
+textes à part entière. Il est l'auteur des /Classifications des systèmes
+philosophiques/ (Paris, Vrin, 2016).
+
+\subsection*{Autres documents pédagogiques du même auteur}
+
+# Autres documents pédagogiques du même auteur :
+1. « Méthode de la dissertation philosophique »
+   (http://baptiste.meles.free.fr/site/B.Meles-Methode_dissertation.pdf,
+   2010-2024) ;
+2. « Méthode du commentaire de texte philosophique »
+   (http://baptiste.meles.free.fr/site/B.Meles-Methode_commentaire_texte.pdf,
+   2007-2024)
+3. « Méthodologie du mémoire de Master »
+   (http://baptiste.meles.free.fr/site/B.Meles-Memoire_Master.pdf,
+   2014-2024) ;
+4. « Le travail personnel en philosophie, de la licence à l'agrégation »
+   (http://baptiste.meles.free.fr/site/B.Meles-Travail_perso.pdf,
+   2008-2024) ;
+5. « Bibliographie de philosophie » (avec Paul Clavier,
+   [[http://baptiste.meles.free.fr/site/P_Clavier-B_Meles-Bibliographie_philosophie.pdf]], 2022)
+6. « Les tables de vérité en braille »
+   (http://baptiste.meles.free.fr/site/B.Meles-Table_verite_braille.pdf,
+   2011).
 
 
 \newpage
@@ -251,34 +306,3 @@ https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https:/
 #+BEGIN_SRC sh :results output verbatim raw :exports results
 ./00-sujets | grep '«' | sed s/'$'/' \\\\'/g
 #+END_SRC
-
-* Footnotes
-
-[fn:1] Baptiste Mélès est chargé de recherche au CNRS, attaché aux
-Archives Henri-Poincaré—PReST (CNRS, Université de Lorraine). Ses
-recherches portent sur les relations entre la philosophie, les sciences
-formelles (logique, mathématiques, informatique) et la linguistique. Il
-étudie en particulier l'histoire structurale de la philosophie de Jules
-Vuillemin, la philosophie mathématique de Jean Cavaillès et d'Albert
-Lautman, et propose de lire les textes de programmes informatiques comme
-des textes à part entière. Il est l'auteur des /Classifications des
-systèmes philosophiques/ (Paris, Vrin, 2016).
-
-Autres documents pédagogiques du même auteur :
-1. « Méthode de la dissertation philosophique »
-   (http://baptiste.meles.free.fr/site/B.Meles-Methode_dissertation.pdf,
-   2010-2022) ;
-2. « Méthode du commentaire de texte philosophique »
-   (http://baptiste.meles.free.fr/site/B.Meles-Methode_commentaire_texte.pdf,
-   2007-2016)
-3. « Méthodologie du mémoire de Master »
-   (http://baptiste.meles.free.fr/site/B.Meles-Memoire_Master.pdf,
-   2014-2019) ;
-4. « Le travail personnel en philosophie, de la licence à l'agrégation »
-   (http://baptiste.meles.free.fr/site/B.Meles-Travail_perso.pdf,
-   2008-2016) ;
-5. « Bibliographie de philosophie » (avec Paul Clavier,
-   [[http://baptiste.meles.free.fr/site/P_Clavier-B_Meles-Bibliographie_philosophie.pdf]], 2022)
-6. « Les tables de vérité en braille »
-   (http://baptiste.meles.free.fr/site/B.Meles-Table_verite_braille.pdf,
-   2011).

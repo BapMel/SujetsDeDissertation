@@ -2,7 +2,18 @@
 
 filtre='\?'
 
-questions_modales="\b(tou(|te)s|existe|y[  ]a-t-il|certains|partout|(nulle|quelque)[  ]part|toujours|parfois|jamais)\b"
+questions_quantifiees="\b(\
+tou(s|t(|e(|s)))|\
+existe|\
+y[  ]a-t-il|\
+certains|\
+quelque[  ]chose|\
+partout|\
+(nulle|quelque)[  ]part|\
+toujours|\
+parfois|\
+jamais\
+)\b"
 
 ./06-toutes_questions_totales | \
     grep "$filtre" | \

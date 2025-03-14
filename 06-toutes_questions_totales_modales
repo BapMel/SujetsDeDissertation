@@ -2,8 +2,13 @@
 
 filtre='\?'
 
-
-questions_modales="\b(faut-il|doi(s|t)|devons|peut|puis)\b"
+questions_modales="\b(\
+faut-il|\
+doi(s|t)|\
+devons|\
+peut|\
+puis\
+)\b"
 
 ./06-toutes_questions_totales | \
     grep "$filtre" | \

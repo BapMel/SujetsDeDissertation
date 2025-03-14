@@ -1,7 +1,8 @@
 Myriade des sujets de dissertation philosophique
 ================================================
 
-Ce projet compile plus de 12 000 sujets de dissertation de philosophie.
+Ce projet compile plusieurs milliers de sujets de dissertation de
+philosophie.
 
 Les sujets proviennent des épreuves écrites et orales de plus d'une
 centaine de concours :
@@ -83,7 +84,8 @@ concours B/L de l'ENS a permis d'arriver à plus de 11 000 sujets. On a
 également ajouté une classification des sujets par concours, par thème
 d'agrégation externe et par type.
 
-En 2023, le projet contient plus de 12 000 sujets.
+En 2023, le projet contient plus de 12 000 sujets ; en 2025, plus
+de 15 000.
 
 
 Autres documents pédagogiques de Baptiste Mélès

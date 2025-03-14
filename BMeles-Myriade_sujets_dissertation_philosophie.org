@@ -148,11 +148,9 @@ philosophiques/ (Paris, Vrin, 2016).
 ./06-toutes_questions_totales | sed s/'^- '// | sed s/'$'/' \\\\'/g
 #+END_SRC
 
-*** Questions totales en « peut »
 
 \noindent
 #+BEGIN_SRC sh :results output verbatim raw :exports results
-./00-sujets | grep -i 'peut' | sed s/'$'/' \\\\'/g
 #+END_SRC
 
 
@@ -190,20 +188,6 @@ philosophiques/ (Paris, Vrin, 2016).
 #+name: triCplOu
 #+BEGIN_SRC sh :results output verbatim raw :exports results
 ./00-sujets | grep ' ou ' | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-*** COMMENT Mot unique
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./00-sujets | grep -v " " | grep -v "L'" | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-*** COMMENT Le X
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./00-sujets | egrep  "^(Le |La |Les |L')\w+$" | sed s/'$'/' \\\\'/g
 #+END_SRC
 
 

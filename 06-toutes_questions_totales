@@ -2,7 +2,20 @@
 
 # nombre="10"
 filtre='\?'
-questions_partielles="(Qu(i|e|')|(À|De)[  ]qu((|o)i|el)|Qu'est-ce|(Dans|En)[  ]qu(el|oi)|Combien|Comment|Où|Quand|Pourquoi)"
+
+questions_partielles="(\
+((À|[:,] à)[  ]qu(el[^q]|i|oi))|\
+((C|[:,] c)ombien)|\
+((C|[:,] c)omment)|\
+((D|[:,] d)ans)|\
+((D|[:,] d)e[  ]qu((|o)i|el))|\
+((E|[:,] e)n[  ]qu(el|oi))|\
+((Q|[:,] q)u(i|e|\'))|\
+((Q|[:,] q)u\'est-ce)|\
+((O|[:,] o)ù)|\
+((P|[:,] p)ourquoi)|\
+((Q|[:,] q)uand)\
+)"
 
 ./00-sujets | \
     grep "$filtre" | \

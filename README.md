@@ -62,6 +62,10 @@ Programmes
   typographiques, en particulier l'absence d'espaces insécables, qui
   peut engendrer des doublons artificiels.
 
+- Les scripts `06-toutes_questions`, `06-toutes_questions_totales`,
+  `06-toutes_questions_totales_quantifiees`,
+  `06-toutes_questions_totales_modales` et
+  `06-toutes_questions_partielles` filtrent les sujets selon leur type.
 
 Historique du projet
 ====================

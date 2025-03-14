@@ -1890,7 +1890,6 @@ Ethnologie et sociologie
 Évolution et révolution
 Exactitude et objectivité
 Excuser et pardonner
-Existe-il des mentalités primitives ?
 Existence et contingence
 Existence et essence
 Existence et religion
@@ -1919,6 +1918,7 @@ Existe-t-il des expériences métaphysiques ?
 Existe-t-il des identités collectives ?
 Existe-t-il des intuitions métaphysiques ?
 Existe-t-il des langages naturels ?
+Existe-t-il des mentalités primitives ?
 Existe-t-il des mondes sociaux ?
 Existe-t-il des paroles vraies ?
 Existe-t-il des plaisirs purs ?
@@ -3612,7 +3612,7 @@ La liberté de parole
 La liberté de penser
 La liberté des autres
 La liberté des citoyens
-La liberté des uns s'arrête-elle où commence celle des autres ?
+La liberté des uns s'arrête-t-elle où commence celle des autres ?
 La liberté d'expression
 La liberté d'expression a-t-elle des limites ?
 La liberté d'expression est-elle nécessaire à la liberté de pensée ?
@@ -5312,7 +5312,7 @@ La science peut-elle se passer d'hypothèses ?
 La science peut-elle se passer d'institutions ?
 La science peut-elle tout expliquer ?
 La science politique
-La science porte-elle au scepticisme ?
+La science porte-t-elle au scepticisme ?
 La science procède-t-elle par rectification ?
 La science rend-elle la religion caduque ?
 La science se limite-t-elle à constater les faits ?
@@ -5507,7 +5507,7 @@ La technique n'est-elle qu'un moyen de domination ?
 La technique n'est-elle qu'un outil au service de l'homme ?
 La technique n'est-elle qu'un prolongement de nos organes ?
 La technique n'est-elle qu'un savoir-faire ?
-La technique n'existe-elle que pour satisfaire des besoins ?
+La technique n'existe-t-elle que pour satisfaire des besoins ?
 La technique nous délivre-t-elle d'un rapport irrationnel au monde ?
 La technique nous éloigne-t-elle de la nature ?
 La technique nous éloigne-t-elle de la réalité ?
@@ -5766,7 +5766,7 @@ La vérité philosophique
 La vérité rend-elle heureux ?
 La vérité rend-elle libre ?
 La vérité requiert-elle du courage ?
-La vérité résiste-elle à sa révélation ?
+La vérité résiste-t-elle à sa révélation ?
 La vérité scientifique est-elle relative ?
 La vérité se communique-t-elle ?
 La vérité se discute-t-elle ?
@@ -8910,7 +8910,7 @@ L'expérience du sociologue
 L'expérience du temps
 L'expérience en psychologie
 L'expérience en sciences humaines
-L'expérience enseigne-elle quelque chose ?
+L'expérience enseigne-t-elle quelque chose ?
 L'expérience, est-ce l'observation ?
 L'expérience est-elle la seule source de nos connaissances ?
 L'expérience est-elle un guide suffisant ?
@@ -14194,7 +14194,7 @@ Tout savoir est-il transmissible ?
 Tout savoir est-il un pouvoir ?
 Tout savoir peut-il se transmettre ?
 Tout s'en va-t-il avec le temps ?
-Tout se prête-il à la mesure ?
+Tout se prête-t-il à la mesure ?
 Tout texte est-il à interpréter ?
 Tout travail a-t-il un sens ?
 Tout travail est-il forcé ?

@@ -13,8 +13,10 @@ questions_partielles="(\
 ((Q|[:,] q)u(i|e|\'))|\
 ((Q|[:,] q)u\'est-ce)|\
 ((O|[:,] o)ù)|\
+((P|[:,] p)ar[  ]qu(el[^q]|i|oi))|\
 ((P|[:,] p)ourquoi)|\
 ((Q|[:,] q)uand)\
+((S|[:,] s)ur[  ]qu(el[^q]|i|oi))\
 )"
 
 ./00-sujets | \

@@ -110,159 +110,45 @@ philosophiques/ (Paris, Vrin, 2016).
 
 \newpage
 
-* Tri par ordre alphabétique
+#+name: compte
+#+BEGIN_SRC sh :results none raw :exports results
+  VALUE=$(wc -l)
+  echo "("$VALUE" sujets)"
+#+END_SRC
+
+
+
+* Tous les sujets par ordre alphabétique call_compte[:stdin triAlpha]()
 
 \noindent
+#+name: triAlpha
 #+BEGIN_SRC sh :results output verbatim raw :exports results
 ./00-sujets | sed s/'$'/' \\\\'/g
 #+END_SRC
 
-* Tri par concours
 
-** Agrégation
-
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./01-agregation | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-** Agrégation externe
-
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./01-agregation_externe | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-** Agrégation interne
-
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./01-agregation_interne | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-** CAPES
-
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./02-capes | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-** CAPES externe
-
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./02-capes_externe | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-** CAPES interne
-
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./02-capes_interne | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-** ENS A​/​L
-
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./03-ens-ulm-al | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-** ENS B​/​L
-
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./03-ens-ulm-bl | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-* Tri par thème des sujets d'agrégation externe
-** Philosophie générale
-
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./01-agregation-philosophie_generale | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-** Esthétique
-
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./01-agregation-esthetique | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-** Logique et épistémologie
-
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./01-agregation-logique_epistemologie | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-** Métaphysique
-
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./01-agregation-metaphysique | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-** Morale
-
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./01-agregation-morale | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-** Politique
-
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./01-agregation-politique | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-** Sciences humaines
-
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./01-agregation-sciences_humaines | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-* Tri par type
+* Tri par type de sujet
 
 ** Question
 
+*** Toutes les questions call_compte[:stdin triQuestions]()
+
 \noindent
+#+name: triQuestions
 #+BEGIN_SRC sh :results output verbatim raw :exports results
 ./00-sujets | grep '?' | sed s/'$'/' \\\\'/g
 #+END_SRC
 
 
-** Question totale (en oui/non)
+*** Questions totales : demande de décision par oui ou non call_compte[:stdin triQnTotales]()
+
 \noindent
+#+name: triQnTotales
 #+BEGIN_SRC sh :results output verbatim raw :exports results
 ./06-toutes_questions_totales | sed s/'^- '// | sed s/'$'/' \\\\'/g
 #+END_SRC
 
-** Question partielle (autre que oui/non)
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./06-toutes_questions_partielles | sed s/'^- '// | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-** Question en « peut »
+*** Questions totales en « peut »
 
 \noindent
 #+BEGIN_SRC sh :results output verbatim raw :exports results
@@ -270,39 +156,203 @@ philosophiques/ (Paris, Vrin, 2016).
 #+END_SRC
 
 
-** Mot unique
+*** Questions partielles : demande de précision call_compte[:stdin triQnPartielles]()
+
+\noindent
+#+name: triQnPartielles
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./06-toutes_questions_partielles | sed s/'^- '// | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+** Notions
+
+*** Notion unique call_compte[:stdin triNtUnique]()
+
+\noindent
+#+name: triNtUnique
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./00-sujets | egrep  "^(|Le |La |Les |L')\w+$" | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+*** Conjonction de notions call_compte[:stdin triCplEt]()
+
+\noindent
+#+name: triCplEt
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./00-sujets | grep ' et ' | grep -v '?' | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+*** Disjonction de notions call_compte[:stdin triCplOu]()
+
+\noindent
+#+name: triCplOu
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./00-sujets | grep ' ou ' | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+*** COMMENT Mot unique
 \noindent
 #+BEGIN_SRC sh :results output verbatim raw :exports results
 ./00-sujets | grep -v " " | grep -v "L'" | sed s/'$'/' \\\\'/g
 #+END_SRC
 
 
-** Le X
+*** COMMENT Le X
 \noindent
 #+BEGIN_SRC sh :results output verbatim raw :exports results
 ./00-sujets | egrep  "^(Le |La |Les |L')\w+$" | sed s/'$'/' \\\\'/g
 #+END_SRC
 
 
-** X et Y
+** Citation call_compte[:stdin triCitation]()
 
 \noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./00-sujets | grep ' et ' | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-** X ou Y
-
-\noindent
-#+BEGIN_SRC sh :results output verbatim raw :exports results
-./00-sujets | grep ' ou ' | sed s/'$'/' \\\\'/g
-#+END_SRC
-
-
-** Citation
-
-\noindent
+#+name: triCitation
 #+BEGIN_SRC sh :results output verbatim raw :exports results
 ./00-sujets | grep '«' | sed s/'$'/' \\\\'/g
+#+END_SRC
+* Tri par concours
+
+** Agrégation
+
+*** Tous les sujets d'agrégation call_compte[:stdin triAgreg]()
+
+\noindent
+#+name: triAgreg
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./01-agregation | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+*** Agrégation externe call_compte[:stdin triAgregExt]()
+
+\noindent
+#+name: triAgregExt
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./01-agregation_externe | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+*** Agrégation interne call_compte[:stdin triAgregInt]()
+
+\noindent
+#+name: triAgregInt
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./01-agregation_interne | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** CAPES
+
+*** Tous les sujets de CAPES call_compte[:stdin triCapes]()
+
+\noindent
+#+name: triCapes
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./02-capes | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+*** CAPES externe call_compte[:stdin triCapesExt]()
+
+\noindent
+#+name: triCapesExt
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./02-capes_externe | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+*** CAPES interne call_compte[:stdin triCapesInt]()
+
+\noindent
+#+name: triCapesInt
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./02-capes_interne | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** ENS
+
+*** ENS A​/​L call_compte[:stdin triENSal]()
+
+\noindent
+#+name: triENSal
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./03-ens-ulm-al | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+*** ENS B​/​L call_compte[:stdin triENSbl]()
+
+\noindent
+#+name: triENSbl
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./03-ens-ulm-bl | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+* Tri par thème d'agrégation externe
+** Philosophie générale call_compte[:stdin triThmPh]()
+
+\noindent
+#+name: triThmPh
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./01-agregation-philosophie_generale | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Esthétique call_compte[:stdin triThmE]()
+
+\noindent
+#+name: triThmE
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./01-agregation-esthetique | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Logique et épistémologie call_compte[:stdin triThmLE]()
+
+\noindent
+#+name: triThmLE
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./01-agregation-logique_epistemologie | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Métaphysique call_compte[:stdin triThmMt]()
+
+\noindent
+#+name: triThmMt
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./01-agregation-metaphysique | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Morale call_compte[:stdin triThmMr]()
+
+\noindent
+#+name: triThmMr
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./01-agregation-morale | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Politique call_compte[:stdin triThmPo]()
+
+\noindent
+#+name: triThmPo
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./01-agregation-politique | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Sciences humaines call_compte[:stdin triThmSH]()
+
+\noindent
+#+name: triThmSH
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./01-agregation-sciences_humaines | sed s/'$'/' \\\\'/g
 #+END_SRC

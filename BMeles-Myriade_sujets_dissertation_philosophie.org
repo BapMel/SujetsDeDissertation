@@ -1,6 +1,6 @@
 #+AUTHOR: Baptiste Mélès
 #+TITLE: Myriade des sujets de dissertation philosophique
-#+DATE: 7 novembre 2024
+#+DATE: 14 mars 2025
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
 #+OPTIONS: c:nil creator:nil d:(not "LOGBOOK") date:t e:t email:nil
 #+OPTIONS: f:t inline:t num:t p:nil pri:nil stat:t tags:t tasks:t tex:t
@@ -63,8 +63,8 @@ de plus d'une centaine de concours :
 4. CAPES interne (14 années : 2011-2024) ;
 5. École normale supérieure de Paris, concours A​/​L (23 années :
    2002-2024) ;
-5. École normale supérieure de Paris, concours B​/​L (22 années :
-   2002-2023).
+5. École normale supérieure de Paris, concours B​/​L (23 années :
+   2002-2024).
 
 
 \section*{L'auteur}

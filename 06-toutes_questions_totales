@@ -1,6 +1,5 @@
 #!/bin/zsh
 
-# nombre="10"
 filtre='\?'
 
 questions_partielles="(\
@@ -22,5 +21,4 @@ questions_partielles="(\
 ./00-sujets | \
     grep "$filtre" | \
     egrep -v "$questions_partielles" | \
-#    shuf -n"$nombre" | \
     sed s/'^'/'- '/g

@@ -1,5 +1,5 @@
-Plusieurs milliers de sujets de dissertation de philosophie
-===========================================================
+Myriade des sujets de dissertation philosophique
+================================================
 
 Ce projet compile plus de 12 000 sujets de dissertation de philosophie.
 
@@ -19,8 +19,7 @@ Fichier PDF
 -----------
 
 Le fichier PDF de plus de 1000 pages
-`BMeles-9000_sujets_dissertation_philosophie.pdf` (dont le nom n'a pas
-été changé depuis la première version de ce document) contient le
+`BMeles-Myriade_sujets_dissertation_philosophie.pdf` contient le
 classement des sujets de dissertation :
 
 1. par ordre alphabétique ;
@@ -46,10 +45,8 @@ forme de fichiers texte :
 Programmes
 ----------
 
-- Le fichier `BMeles-9000_sujets_dissertation_philosophie.org` — dont le
-  nom est préservé pour des raisons historiques, même si la liste
-  contient aujourd'hui bien plus de 9 000 sujets — est le programme en
-  org-mode qui engendre le fichier PDF.
+- Le fichier `BMeles-Myriade_sujets_dissertation_philosophie.org` est le
+  programme en org-mode qui engendre le fichier PDF.
 
 - Le script shell (zsh) `00-sujets` engendre la liste alphabétique des
   sujets (cf. `sujets.txt`).

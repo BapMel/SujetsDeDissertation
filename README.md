@@ -9,8 +9,8 @@ centaine de concours :
 
 1. agrégation externe (depuis 2008) ;
 2. agrégation interne (depuis 2009) ;
-3. CAPES externe (depuis 2010) ; 
-4. CAPES interne (depuis 2011) ; 
+3. CAPES externe (depuis 2010) ;
+4. CAPES interne (depuis 2011) ;
 5. École normale supérieure de Paris, concours A​/​L (depuis 2002) ;
 5. École normale supérieure de Paris, concours B​/​L (depuis 2002).
 
@@ -24,8 +24,9 @@ Le fichier PDF de plus de 1000 pages
 classement des sujets de dissertation :
 
 1. par ordre alphabétique ;
+2. par type ;
 2. par concours ;
-3. par type.
+3. par thème d'agrégation externe.
 
 L'auteur vous sera reconnaissant de lui signaler toute coquille
 ou erreur.
@@ -40,7 +41,7 @@ forme de fichiers texte :
 - pour chaque concours (exemples : `ens-ulm-al-2016.txt`,
   `agregation_interne-2022.txt`) ;
 - un fichier `sujets.txt` rassemble tous les sujets par ordre
-  alphabétique. 
+  alphabétique.
 
 
 Programmes
@@ -66,6 +67,7 @@ Programmes
   `06-toutes_questions_totales_quantifiees`,
   `06-toutes_questions_totales_modales` et
   `06-toutes_questions_partielles` filtrent les sujets selon leur type.
+
 
 Historique du projet
 ====================
@@ -109,9 +111,7 @@ Autres documents pédagogiques de Baptiste Mélès
    2008-2016) ;
 5. « Bibliographie de philosophie » (avec Paul Clavier,
    http://baptiste.meles.free.fr/site/P_Clavier-B_Meles-Bibliographie_philosophie.pdf,
-   2022) 
+   2022)
 6. « Les tables de vérité en braille »
    (http://baptiste.meles.free.fr/site/B.Meles-Table_verite_braille.pdf,
    2011).
-
-

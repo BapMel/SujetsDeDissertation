@@ -114,7 +114,7 @@ philosophiques/ (Paris, Vrin, 2016).
 #+name: compte
 #+BEGIN_SRC sh :results none raw :exports results
   VALUE=$(wc -l)
-  echo "("$VALUE" sujets)"
+  echo "("$VALUE" sujets)"
 #+END_SRC
 
 
@@ -141,7 +141,7 @@ philosophiques/ (Paris, Vrin, 2016).
 #+END_SRC
 
 
-*** Question totale : demande de décision par oui ou non
+*** Question totale : demande de décision (oui/non)
 
 **** Toutes les questions totales call_compte[:stdin triQnTotales]()
 

@@ -386,6 +386,7 @@ A-t-on le droit de s'évader ?
 A-t-on l'obligation de pardonner ?
 A-t-on raison de mettre la technique en accusation ?
 A-t-on raison de tenir à la démocratie ?
+A-t-on toujours le choix ?
 Attendre
 Attente et espérance
 Au-delà
@@ -759,6 +760,7 @@ Comment mesurer ?
 Comment mesurer une sensation ?
 Comment ne pas être humaniste ?
 Comment ne pas être libéral ?
+Comment ne pas s'ennuyer ?
 Comment penser la diversité des langues ?
 Comment penser l'écoulement du temps ?
 Comment penser le futur ?
@@ -6338,6 +6340,7 @@ Le désir est-il l'essence de l'homme ?
 Le désir est-il nécessairement l'expression d'un manque ?
 Le désir est-il par nature illimité ?
 Le désir est-il sans limite ?
+Le désir est-il sans limites ?
 Le désir et la culpabilité
 Le désir et la liberté
 Le désir et la loi
@@ -8213,7 +8216,7 @@ L'esprit s'explique-t-il par une activité cérébrale ?
 L'esprit tranquille
 Les problèmes politiques peuvent-ils se ramener à des problèmes techniques ?
 Les problèmes politiques sont-ils des problèmes techniques ?
-Les procédures de validation dans les sciences humaines ?
+Les procédures de validation dans les sciences humaines
 Les progrès de la technique sont-ils nécessairement des progrès de la raison ?
 Les progrès techniques constituent-ils des progrès de la civilisation ?
 Les propositions métaphysiques sont-elles des illusions ?
@@ -8287,6 +8290,7 @@ Les sciences de l'homme rendent-elles l'homme prévisible ?
 Les sciences de l'homme sont-elles des sciences ?
 Les sciences de l'homme sont-elles utiles à la société ?
 Les sciences doivent-elle prétendre à l'unification ?
+Les sciences doivent-elles être neutres ?
 Les sciences du comportement
 Les sciences et le vivant
 Les sciences exactes
@@ -8479,7 +8483,6 @@ Le système des arts
 Le système des beaux-arts
 Le système des besoins
 Le tableau
-Le tableau ?
 Le tableau vivant
 Le tacite
 Le tact
@@ -10692,6 +10695,7 @@ Peut-on comparer deux philosophies ?
 Peut-on comparer les cultures ?
 Peut-on comparer l'organisme à une machine ?
 Peut-on comprendre ce qui est illogique ?
+Peut-on comprendre le présent
 Peut-on comprendre le présent ?
 Peut-on comprendre les actions humaines ?
 Peut-on comprendre un acte que l'on désapprouve ?
@@ -11296,6 +11300,7 @@ Peut-on se rendre maître de la technique ?
 Peut-on se retirer du monde ?
 Peut-on servir deux maîtres à la fois ?
 Peut-on se soustraire à son devoir ?
+Peut-on se trahir soi-même ?
 Peut-on se tromper en se croyant heureux ?
 Peut-on se tromper sur son devoir ?
 Peut-on se vouloir parfait ?
@@ -13422,6 +13427,7 @@ Raison et langage
 Raison et politique
 Raison et religion sont-elles incompatibles ?
 Raison et révélation
+Raison et sentiments
 Raison et technique
 Raison et tradition
 Raisonnable et rationnel
@@ -14675,6 +14681,7 @@ Y a-t-il des choses qu'on n'échange pas ?
 Y a-t-il des colères justes ?
 Y a-t-il des compétences politiques ?
 Y a-t-il des conflits de devoirs ?
+Y a-t-il des conflits insolubles ?
 Y a-t-il des connaissances dangereuses ?
 Y a-t-il des connaissances désintéressées ?
 Y a-t-il des contraintes légitimes ?

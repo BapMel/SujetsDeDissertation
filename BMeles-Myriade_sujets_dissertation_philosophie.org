@@ -1,7 +1,7 @@
 #+AUTHOR: Baptiste Mélès
 #+TITLE: Myriade des sujets de dissertation philosophique
 #+DATE: 14 mars 2025
-#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
+#+OPTIONS: ':nil *:t -:t ::t <:t H:4 \n:nil ^:t arch:headline author:t
 #+OPTIONS: c:nil creator:nil d:(not "LOGBOOK") date:t e:t email:nil
 #+OPTIONS: f:t inline:t num:t p:nil pri:nil stat:t tags:t tasks:t tex:t
 #+OPTIONS: timestamp:t toc:nil todo:t |:t
@@ -28,7 +28,7 @@
 
 La « Myriade des sujets de dissertation philosophique » est une
 compilation de quelque 15 000 sujets de dissertation de philosophie,
-classés par ordre alphabétique, par concours, par thème et par type.
+classés par ordre alphabétique, par type, par concours et par thème.
 
 Elle peut être utile :
 - aux étudiantes et étudiants souhaitant se préparer aux examens ou aux
@@ -106,6 +106,7 @@ philosophiques/ (Paris, Vrin, 2016).
 
 \newpage
 
+\setcounter{tocdepth}{4}
 \tableofcontents
 
 \newpage
@@ -140,7 +141,11 @@ philosophiques/ (Paris, Vrin, 2016).
 #+END_SRC
 
 
-*** Questions totales : demande de décision par oui ou non call_compte[:stdin triQnTotales]()
+*** Question totale : demande de décision par oui ou non
+
+**** Toutes les questions totales call_compte[:stdin triQnTotales]()
+
+\mbox{} \\
 
 \noindent
 #+name: triQnTotales
@@ -170,7 +175,7 @@ philosophiques/ (Paris, Vrin, 2016).
 #+END_SRC
 
 
-*** Questions partielles : demande de précision call_compte[:stdin triQnPartielles]()
+*** Question partielle : demande de précision call_compte[:stdin triQnPartielles]()
 
 \noindent
 #+name: triQnPartielles
@@ -189,7 +194,11 @@ philosophiques/ (Paris, Vrin, 2016).
 #+END_SRC
 
 
-*** Conjonction de notions call_compte[:stdin triCplEt]()
+*** Couple de notions
+
+**** Conjonction de notions call_compte[:stdin triCplEt]()
+
+\mbox{} \\
 
 \noindent
 #+name: triCplEt
@@ -198,7 +207,9 @@ philosophiques/ (Paris, Vrin, 2016).
 #+END_SRC
 
 
-*** Disjonction de notions call_compte[:stdin triCplOu]()
+**** Disjonction de notions call_compte[:stdin triCplOu]()
+
+\mbox{} \\
 
 \noindent
 #+name: triCplOu

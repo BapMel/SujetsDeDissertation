@@ -130,7 +130,26 @@ philosophiques/ (Paris, Vrin, 2016).
 
 * Tri par type de sujet
 
-** Question
+Il existe trois grands types de sujets :
+
+1. les [[qn][questions]], qui se terminent par un point d'interrogation ;
+2. les [[ntn][notions]], qui ne forment pas des phrases complètes ;
+3. les [[ctn][citations]], qui contiennent des guillemets.
+
+
+** <<qn>> Question
+
+Les questions se subdivisent en deux grandes catégories :
+
+1. les [[qnTot][questions totales]] sont celles qui /demandent une décision/,
+   c'est-à-dire une réponse par oui ou non ;
+2. les [[qnPart][questions partielles]] sont celles qui /demandent une précision/,
+   qui peut prendre la forme d'un groupe nominal ou d'un complément
+   circonstanciel : elles contiennent un mot ou une expression
+   interrogatifs comme « qui », « que », « à qui », « de quoi »,
+   « à quoi bon », « pourquoi », « comment », « à quelles conditions »,
+   « dans quelle mesure », etc.
+
 
 *** Toutes les questions call_compte[:stdin triQuestions]()
 
@@ -141,7 +160,21 @@ philosophiques/ (Paris, Vrin, 2016).
 #+END_SRC
 
 
-*** Question totale : demande de décision (oui/non)
+*** <<qnTot>> Question totale : demande de décision (oui/non)
+
+On trouvera ici la liste des questions totales, c'est-à-dire appelant
+une décision par oui ou non.
+
+Parmi les questions totales, deux catégories méritent une attention
+particulière :
+
+1. les [[qnTotQuant][questions /quantifiées/]], qui contiennent les mots « tous »,
+   « existe-t-il », « y a-t-il », « toujours », « jamais », « parfois »,
+   « partout », « nulle part », « quelque part », etc.
+2. les [[qnTotMod][questions /modales/]], qui contiennent les mots « faut-il »,
+   « doit-on », « peut-on », « nécessaire », « possible »,
+   « obligatoire », « interdit », « autorisé », « permis », etc.
+
 
 **** Toutes les questions totales call_compte[:stdin triQnTotales]()
 
@@ -153,7 +186,7 @@ philosophiques/ (Paris, Vrin, 2016).
 ./06-toutes_questions_totales | sed s/'^- '// | sed s/'$'/' \\\\'/g
 #+END_SRC
 
-**** Question totale quantifiée call_compte[:stdin triQnQuant]()
+**** <<qnTotQuant>> Question totale quantifiée call_compte[:stdin triQnQuant]()
 
 \mbox{} \\
 
@@ -164,7 +197,7 @@ philosophiques/ (Paris, Vrin, 2016).
 #+END_SRC
 
 
-**** Question totale modalisée call_compte[:stdin triQnMod]()
+**** <<qnTotMod>> Question totale modalisée call_compte[:stdin triQnMod]()
 
 \mbox{} \\
 
@@ -175,7 +208,7 @@ philosophiques/ (Paris, Vrin, 2016).
 #+END_SRC
 
 
-*** Question partielle : demande de précision call_compte[:stdin triQnPartielles]()
+*** <<qnPart>> Question partielle : demande de précision call_compte[:stdin triQnPartielles]()
 
 \noindent
 #+name: triQnPartielles
@@ -183,9 +216,16 @@ philosophiques/ (Paris, Vrin, 2016).
 ./06-toutes_questions_partielles | sed s/'^- '// | sed s/'$'/' \\\\'/g
 #+END_SRC
 
-** Notions
+** <<ntn>> Notions
 
-*** Notion unique call_compte[:stdin triNtUnique]()
+Parmi les sujets composés de notions, deux sont particulièrement
+fréquents :
+
+1. une [[ntnUn][notion unique]] ;
+2. un [[ntnCpl][couple de notions]] reliées par une [[ntnCplConj][conjonction (« et »)]] ou une
+   [[ntnCplDisj][disjonction (« ou »)]].
+
+*** <<ntnUn>> Notion unique call_compte[:stdin triNtUnique]()
 
 \noindent
 #+name: triNtUnique
@@ -194,9 +234,9 @@ philosophiques/ (Paris, Vrin, 2016).
 #+END_SRC
 
 
-*** Couple de notions
+*** <<ntnCpl>> Couple de notions
 
-**** Conjonction de notions call_compte[:stdin triCplEt]()
+**** <<ntnCplConj>> Conjonction de notions call_compte[:stdin triCplEt]()
 
 \mbox{} \\
 
@@ -207,7 +247,7 @@ philosophiques/ (Paris, Vrin, 2016).
 #+END_SRC
 
 
-**** Disjonction de notions call_compte[:stdin triCplOu]()
+**** <<ntnCplDisj>> Disjonction de notions call_compte[:stdin triCplOu]()
 
 \mbox{} \\
 
@@ -218,7 +258,9 @@ philosophiques/ (Paris, Vrin, 2016).
 #+END_SRC
 
 
-** Citation call_compte[:stdin triCitation]()
+** <<ctn>> Citation call_compte[:stdin triCitation]()
+
+Les citations sont les sujets comportant des guillemets.
 
 \noindent
 #+name: triCitation

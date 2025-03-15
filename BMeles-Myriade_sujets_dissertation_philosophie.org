@@ -132,23 +132,31 @@ philosophiques/ (Paris, Vrin, 2016).
 
 Il existe trois grands types de sujets :
 
-1. les [[qn][questions]], qui se terminent par un point d'interrogation ;
-2. les [[ntn][notions]], qui ne forment pas des phrases complètes ;
-3. les [[ctn][citations]], qui contiennent des guillemets.
+1. la [[qn][question]], phrase terminée par un point d'interrogation et appelant
+   une réponse ;
+2. les [[ntn][notions]], groupe nominal appelant l'étude d'un ou plusieurs
+   concepts ;
+3. la [[ctn][citation]], expression entre guillemets appelant l'examen d'une
+   façon de parler.
 
 
 ** <<qn>> Question
 
-Les questions se subdivisent en deux grandes catégories :
+Une question est une phrase terminée par un point d'interrogation et
+appelant une réponse.
 
-1. les [[qnTot][questions totales]] sont celles qui /demandent une décision/,
-   c'est-à-dire une réponse par oui ou non ;
-2. les [[qnPart][questions partielles]] sont celles qui /demandent une précision/,
-   qui peut prendre la forme d'un groupe nominal ou d'un complément
-   circonstanciel : elles contiennent un mot ou une expression
-   interrogatifs comme « qui », « que », « à qui », « de quoi »,
-   « à quoi bon », « pourquoi », « comment », « à quelles conditions »,
-   « dans quelle mesure », etc.
+Toutes les questions se répartissent en deux grandes catégories, qui
+appellent des types de réponses distincts :
+
+1. les [[qnTot][questions totales]] sont celles qui /demandent une décision/ :
+   elles portent sur la totalité d'une proposition et appellent à dire
+   si elle est /vraie ou fausse/ ;
+2. les [[qnPart][questions partielles]] sont celles qui /demandent une précision/ :
+   elles posent une proposition et, au moyen d'un mot interrogatif — par
+   exemple « qui », « que », « pourquoi », « comment », « à quelles
+   conditions », « dans quelle mesure » —, appellent à déterminer le
+   groupe nominal ou le complément circonstanciel qui /rend la
+   proposition vraie/.
 
 
 *** Toutes les questions call_compte[:stdin triQuestions]()
@@ -162,18 +170,21 @@ Les questions se subdivisent en deux grandes catégories :
 
 *** <<qnTot>> Question totale : demande de décision (oui/non)
 
-On trouvera ici la liste des questions totales, c'est-à-dire appelant
-une décision par oui ou non.
+Les questions totales sont celles qui /appellent une décision/,
+c'est-à-dire une réponse par oui ou non.
 
-Parmi les questions totales, deux catégories méritent une attention
+Parmi les questions totales, deux sous-catégories méritent une attention
 particulière :
 
-1. les [[qnTotQuant][questions /quantifiées/]], qui contiennent les mots « tous »,
-   « existe-t-il », « y a-t-il », « toujours », « jamais », « parfois »,
-   « partout », « nulle part », « quelque part », etc.
-2. les [[qnTotMod][questions /modales/]], qui contiennent les mots « faut-il »,
-   « doit-on », « peut-on », « nécessaire », « possible »,
-   « obligatoire », « interdit », « autorisé », « permis », etc.
+1. les [[qnTotQuant][questions /quantifiées/]] sont celles qui portent sur des problèmes
+   d'universalité et d'existence : elles contiennent des mots comme
+   « tous », « existe-t-il », « y a-t-il », « toujours », « jamais »,
+   « parfois », « partout », « nulle part », « quelque part », etc.
+2. les [[qnTotMod][questions /modales/]] sont celles qui portent sur le nécessaire ou
+   le possible, l'obligatoire ou le permis : elles contiennent des
+   expressions comme « faut-il », « doit-on », « peut-on »,
+   « nécessaire », « possible », « obligatoire », « interdit »,
+   « autorisé », « permis », etc.
 
 
 **** Toutes les questions totales call_compte[:stdin triQnTotales]()
@@ -210,6 +221,12 @@ particulière :
 
 *** <<qnPart>> Question partielle : demande de précision call_compte[:stdin triQnPartielles]()
 
+Les questions partielles sont celles qui /appellent une précision/ :
+elles demandent de déterminer le groupe nominal ou le complément
+circonstanciel qui rend une proposition vraie.
+
+\bigskip
+
 \noindent
 #+name: triQnPartielles
 #+BEGIN_SRC sh :results output verbatim raw :exports results
@@ -217,6 +234,9 @@ particulière :
 #+END_SRC
 
 ** <<ntn>> Notions
+
+Les sujets composés de notions demandent l'étude d'un ou plusieurs
+concepts.
 
 Parmi les sujets composés de notions, deux sont particulièrement
 fréquents :
@@ -260,7 +280,10 @@ fréquents :
 
 ** <<ctn>> Citation call_compte[:stdin triCitation]()
 
-Les citations sont les sujets comportant des guillemets.
+Les citations sont des expressions entre guillemets. Les sujets de ce
+type appellent l'examen d'une façon de parler.
+
+\bigskip
 
 \noindent
 #+name: triCitation

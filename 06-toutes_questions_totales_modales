@@ -7,7 +7,14 @@ faut-il|\
 doi(s|t)|\
 devons|\
 peut|\
-puis\
+puis|\
+nécessaire|\
+possible|\
+contingent|\
+obligatoire|\
+interdit|\
+autorisé|\
+permis\
 )\b"
 
 ./06-toutes_questions_totales | \

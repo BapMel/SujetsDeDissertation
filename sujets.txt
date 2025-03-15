@@ -461,7 +461,7 @@ Avoir une idée
 Avoir un passé, avoir un avenir
 Avoir un sens
 Avons-nous à apprendre des images ?
-Avons-nous accès aux choses-mêmes ?
+Avons-nous accès aux choses mêmes ?
 Avons-nous besoin d'amis ?
 Avons-nous besoin de cérémonies ?
 Avons-nous besoin de Dieu ?
@@ -644,7 +644,7 @@ Chanter
 Chanter et parler
 Chaos et cosmos
 Chaque science porte-t-elle une métaphysique qui lui est propre ?
-Châtier, est ce faire honneur au criminel ?
+Châtier, est-ce faire honneur au criminel ?
 Chercher ses mots
 Chercher son intérêt, est-ce être immoral ?
 Choisir
@@ -1854,7 +1854,7 @@ Ethnologie et sociologie
 Être sans cause
 Être sans cœur
 Être sans foi ni loi
-Être sans scrupule
+Être sans scrupules
 Être sceptique
 « Être » se dit-il en plusieurs sens ?
 Être sensible
@@ -1976,7 +1976,7 @@ Expliquer, est-ce justifier ?
 Expliquer et comprendre
 Expliquer et interpréter
 Expliquer et justifier
-Expliquer, justifier comprendre
+Expliquer, justifier, comprendre
 « Expliquer les faits sociaux par des faits sociaux »
 Exploiter la nature, est-ce lui vouloir du mal ?
 Expression et création
@@ -3162,7 +3162,7 @@ La découverte de la vérité peut-elle être le fait du hasard ?
 La découverte scientifique a-t-elle une logique ?
 La déduction
 La défense de la liberté
-La défense de l'intérêt général est-il la fin dernière de la politique ?
+La défense de l'intérêt général est-elle la fin dernière de la politique ?
 La défense nationale
 La déficience
 La définition
@@ -3920,6 +3920,7 @@ La morale des fables
 La morale doit-elle en appeler à la nature ?
 La morale doit-elle être rationnelle ?
 La morale doit-elle fournir des préceptes ?
+La morale doit-elle s'adapter à la réalité ?
 La morale du citoyen
 La morale du plus fort
 La morale est-elle affaire de convention ?
@@ -4664,7 +4665,7 @@ La puissance du langage
 La puissance du peuple
 La puissance et l'acte
 La puissance et le possible
-La puissance technique est- elle sans limites ?
+La puissance technique est-elle sans limites ?
 La pulsion
 La punition
 La pureté
@@ -4676,7 +4677,7 @@ La question de l'essence
 La question de l'œuvre d'art
 La question de l'origine
 La question des origines
-La question du sens de la vie peut-elle être sans réponses ?
+La question du sens de la vie peut-elle être sans réponse ?
 La question « qu'est-ce que l'homme ? » est-elle scientifique ?
 La question : « qui ? »
 La question « qui suis-je » admet-elle une réponse exacte ?
@@ -4894,7 +4895,7 @@ La religion est-elle un instrument de pouvoir ?
 La religion est-elle un obstacle à la liberté ?
 La religion et la croyance
 La religion implique-t-elle la croyance en un être divin ?
-La religion impose t-elle un joug salutaire à l'intelligence ?
+La religion impose-t-elle un joug salutaire à l'intelligence ?
 La religion naturelle
 La religion n'est-elle que l'affaire des croyants ?
 La religion n'est-elle qu'une affaire privée ?
@@ -5477,7 +5478,7 @@ La technique doit-elle nous libérer du travail ?
 La technique doit-elle permettre de dépasser les limites de l'humain ?
 La technique donne-t-elle une illusion de pouvoir ?
 La technique est-elle civilisatrice ?
-La technique est-elle contre nature ?
+La technique est-elle contre-nature ?
 La technique est-elle dangereuse ?
 La technique est-elle l'application de la science ?
 La technique est-elle le propre de l'homme ?
@@ -6598,7 +6599,7 @@ L'égalité des hommes est-elle un fait ou une idée ?
 L'égalité des hommes et des femmes est-elle une question politique ?
 L'égalité des sexes
 L'égalité devant la loi
-L'égalité est-elle contre nature ?
+L'égalité est-elle contre-nature ?
 L'égalité est-elle l'ennemie de la liberté ?
 L'égalité est-elle souhaitable ?
 L'égalité est-elle toujours juste ?
@@ -6623,7 +6624,7 @@ Le genre humain : unité ou pluralité ?
 Le geste
 Le geste créateur
 Le geste et la parole
-Le geste technique exprime t-il une liberté sans fin ?
+Le geste technique exprime-t-il une liberté sans fin ?
 Légitimité et légalité
 L'égoïsme
 Le goût
@@ -6666,7 +6667,7 @@ Le hasard fait-il bien les choses ?
 Le hasard gouverne-t-il le monde ?
 Le hasard n'est-il que la mesure de notre ignorance ?
 Le hasard n'est-il que le nom de notre ignorance ?
-Le hasard peut-il être un concept explicatif ?La morale doit-elle s'adapter à la réalité ?
+Le hasard peut-il être un concept explicatif ?
 Le haut
 Le haut et le bas
 Le héros
@@ -10076,7 +10077,7 @@ Ma parole m'engage-t-elle ?
 Masculin et féminin
 Masculin et Féminin
 Masculin, féminin
-Mass-media et création artistique
+Mass media et création artistique
 Matérialisme et mécanisme
 Matériel / immatériel
 Mathématique et imagination
@@ -12445,6 +12446,7 @@ Qu'est-ce que la souveraineté ?
 Qu'est-ce que la technique ?
 Qu'est-ce que la technique doit à la nature ?
 Qu'est-ce que la tragédie ?
+Qu'est-ce que l'autorité ?
 Qu'est-ce que la valeur marchande ?
 Qu'est-ce que la vérité ?
 Qu'est-ce que la vie ?
@@ -12583,7 +12585,6 @@ Qu'est-ce qu'être un sujet ?
 Qu'est-ce qu'être vertueux ?
 Qu'est-ce qu'être visionnaire ?
 Qu'est-ce qu'être vivant ?
-Qu'est-ce que un individu
 Qu'est-ce que vérifier ?
 Qu'est-ce que vérifier une théorie ?
 Qu'est-ce que vieillir ?
@@ -12616,7 +12617,7 @@ Qu'est-ce qui est artificiel ?
 Qu'est-ce qui est beau ?
 Qu'est-ce qui est commun à toutes les langues ?
 Qu'est-ce qui est concret ?
-Qu'est-ce qui est contre nature ?
+Qu'est-ce qui est contre-nature ?
 Qu'est-ce qui est culturel ?
 Qu'est-ce qui est démonstratif ?
 Qu'est-ce qui est donné ?
@@ -13226,7 +13227,6 @@ Qu'est-ce qu'un rapport de force ?
 Qu'est-ce qu'un récit ?
 Qu'est-ce qu'un récit véridique ?
 Qu'est-ce qu'un réfugié politique ?
-Qu'est-ce qu'un réfutation ?
 Qu'est-ce qu'un régime politique ?
 Qu'est-ce qu'un réseau ?
 Qu'est-ce qu'un rhéteur ?
@@ -13271,9 +13271,6 @@ Qu'est-ce qu'un vrai changement ?
 Qu'est-il légitime d'interdire ?
 Qu'est-il utile d'interdire ?
 Question et problème
-Qu'est que l'autorité ?
-Qu'est qu'une image ?
-Qu'est qu'un régime politique ?
 Que suis-je ?
 Que suppose le mouvement ?
 Que transmettons-nous ?
@@ -13893,7 +13890,6 @@ Suffit-il, pour croire, de le vouloir ?
 Suffit-il, pour être juste, d'obéir aux lois et aux coutumes de son pays ?
 Suffit-il que nos intentions soient bonnes pour que nos actions le soient aussi ?
 Suicide et homicide
-Suis-ce que j'ai conscience d'être ?
 Suis-je au centre de l'espace ?
 Suis-je aussi ce que j'aurais pu être ?
 Suis-je ce que j'ai conscience d'être ?
@@ -14157,7 +14153,7 @@ Toute vérité est-elle un rapport ?
 Toute vérité est-elle vérifiable ?
 Toute vérité se laisse-t-elle démontrer ?
 Toute vie est-elle intrinsèquement respectable ?
-Toute violence est-elle contre nature ?
+Toute violence est-elle contre-nature ?
 Tout exercice du pouvoir politique implique-t-il l'usage de la violence ?
 Tout fondement de la connaissance est-il métaphysique ?
 Tout futur est-il contingent ?
@@ -14315,7 +14311,7 @@ Une idée peut-elle être fausse ?
 Une idée peut-elle être générale ?
 Une imitation peut-elle être parfaite ?
 Une inégalité peut-elle être juste ?
-Une injustice vaut elle mieux qu'un désordre ?
+Une injustice vaut-elle mieux qu'un désordre ?
 Une intention peut-elle être coupable ?
 Une interprétation est-elle nécessairement subjective ?
 Une interprétation peut-elle échapper à l'arbitraire ?
@@ -14327,7 +14323,7 @@ Une interprétation peut-elle prétendre à la vérité ?
 Une justice sans égalité est-elle possible ?
 Une langue n'est-elle faite que de mots ?
 Une ligne de conduite peut-elle tenir lieu de morale ?
-Une logique non-formelle est-elle possible ?
+Une logique non formelle est-elle possible ?
 Une loi n'est-elle qu'une règle ?
 Une loi peut-elle être injuste ?
 Une machine n'est-elle qu'un outil perfectionné ?
@@ -15086,6 +15082,7 @@ Y a-t-il une science de l'être ?
 Y a-t-il une science de l'homme ?
 Y a-t-il une science de l'individuel ?
 Y a-t-il une science des principes ?
+Y a-t-il une science du comportement ?
 Y a-t-il une science du juste ?
 Y a-t-il une science du moi ?
 Y a-t-il une science du qualitatif ?
@@ -15139,7 +15136,7 @@ Y a-t-il un fondement moral aux circonstances atténuantes ?
 Y a-t-il un inconscient collectif ?
 Y a-t-il un inconscient psychique ?
 Y a-t-il un inconscient social ?
-Y a t-il un instinct moral ?
+Y a-t-il un instinct moral ?
 Y a-t-il un intérêt à faire son devoir ?
 Y a-t-il un jugement de l'histoire ?
 Y a-t-il un langage animal ?
@@ -15203,5 +15200,4 @@ Y a-t-il un tribunal de l'histoire ?
 Y a-t-il un usage moral des passions ?
 Y a-t-il un usage purement instrumental de la raison ?
 Y a-t-il vérité sans interprétation ?
-Y a-t-une science du comportement ?
 Y aura-t-il toujours des religions ?

@@ -1,0 +1,257 @@
+#+AUTHOR: Baptiste Mélès
+#+TITLE: 11 000 sujets de dissertation de philosophie 
+#+DATE: 6 janvier 2021
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
+#+OPTIONS: c:nil creator:comment d:(not "LOGBOOK") date:t e:t email:nil
+#+OPTIONS: f:t inline:t num:t p:nil pri:nil stat:t tags:t tasks:t tex:t
+#+OPTIONS: timestamp:t toc:nil todo:t |:t
+#+CREATOR: Emacs 24.5.1 (Org mode 8.2.10)
+#+DESCRIPTION:
+#+EXCLUDE_TAGS: noexport
+#+KEYWORDS:
+#+LANGUAGE: fr
+#+SELECT_TAGS: export
+#+STARTUP: showall
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper,12pt]
+#+LATEX_HEADER: \usepackage[frenchb]{babel}
+#+LATEX_HEADER: \usepackage{lmodern}
+#+LATEX_HEADER: \DeclareUnicodeCharacter{00A0}{~}
+#+LATEX_HEADER: \DeclareUnicodeCharacter{200B}{}
+# bibliographystyle:authoryear
+# bibliography:~/philo/fiches/bibliographie.bib
+# -*- org-confirm-babel-evaluate: nil -*-
+# -*- org-export-babel-evaluate: t -*-
+
+# Mettre la variable org-confirm-babel-evaluate sur nil pour tout
+# exécuter sans confirmer.
+
+On trouvera ici, classés par ordre alphabétique puis par concours et
+par type, quelque 11 000 sujets de dissertation de philosophie.
+
+Cette liste est la compilation de tous les sujets donnés aux épreuves
+écrites et orales de plus de 80 concours :
+1. agrégation externe (13 années : 2008-2020) ;
+2. agrégation interne (11 années : 2009-2019) ;
+3. CAPES externe (11 années : 2010-2020) ; 
+4. CAPES interne (9 années : 2011-2019) ; 
+5. École normale supérieure de Paris, concours A​/​L (19 années :
+   2002-2020) ;
+5. École normale supérieure de Paris, concours B​/​L (19 années :
+   2002-2020).
+
+L'auteur vous sera reconnaissant de lui signaler toute coquille ou erreur[fn:1].
+
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+* Liste complète
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./00-sujets | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+* Tri par concours
+
+** Agrégation 
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results
+./01-agregation | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Agrégation externe
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./01-agregation_externe | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Agrégation interne
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./01-agregation_interne | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** CAPES 
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./02-capes | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** CAPES externe
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./02-capes_externe | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** CAPES interne
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./02-capes_interne | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** ENS A​/​L
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./03-ens-ulm-al | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** ENS B​/​L
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./03-ens-ulm-bl | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+* Tri par thème des sujets d'agrégation externe
+** Philosophie générale
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./01-agregation-philosophie_generale | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Esthétique
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./01-agregation-esthetique | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Logique et épistémologie
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./01-agregation-logique_epistemologie | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Métaphysique
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./01-agregation-metaphysique | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Morale
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./01-agregation-morale | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Politique
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./01-agregation-politique | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Sciences humaines
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./01-agregation-sciences_humaines | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+* Tri par type
+
+** Question
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./00-sujets | grep '?' | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Question en « peut »
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./00-sujets | grep -i 'peut' | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Mot unique
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./00-sujets | grep -v " " | grep -v "L'" | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Le X
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./00-sujets | egrep  "^(Le |La |Les |L')\w+$" | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** X et Y
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./00-sujets | grep ' et ' | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** X ou Y
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./00-sujets | grep ' ou ' | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+
+** Citation
+
+\noindent
+#+BEGIN_SRC sh :results output verbatim raw :exports results 
+./00-sujets | grep '«' | sed s/'$'/' \\\\'/g
+#+END_SRC
+
+* Footnotes
+
+[fn:1] Documents pédagogiques de Baptiste Mélès (CNRS, AHP-PReST,
+Université de Lorraine) :
+1. « Méthode de la dissertation philosophique »
+   (http://baptiste.meles.free.fr/site/B.Meles-Methode_dissertation.pdf,
+   2010-2020) ;
+2. « Méthode du commentaire de texte philosophique »
+   (http://baptiste.meles.free.fr/site/B.Meles-Methode_commentaire_texte.pdf,
+   2007-2016)
+3. « Méthodologie du mémoire de Master »
+   (http://baptiste.meles.free.fr/site/B.Meles-Memoire_Master.pdf,
+   2014-2019) ;
+4. « Le travail personnel en philosophie, de la licence à l'agrégation »
+   (http://baptiste.meles.free.fr/site/B.Meles-Travail_perso.pdf,
+   2008-2016) ;
+5. « Les tables de vérité en braille »
+   (http://baptiste.meles.free.fr/site/B.Meles-Table_verite_braille.pdf,
+   2011).
+
+

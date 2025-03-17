@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+cat agregation*-philosophie_generale.txt | sort | uniq

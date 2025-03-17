@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+cat agregation*.txt capes*.txt ens-ulm*.txt | sort | uniq

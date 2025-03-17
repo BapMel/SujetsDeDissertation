@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+cat agregation*-esthetique.txt | sort | uniq

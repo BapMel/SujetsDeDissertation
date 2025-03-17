@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+cat ens-ulm-*.txt | sort | uniq

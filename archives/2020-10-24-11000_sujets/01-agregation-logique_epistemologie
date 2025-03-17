@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+cat agregation*-logique_epistemologie.txt | sort | uniq

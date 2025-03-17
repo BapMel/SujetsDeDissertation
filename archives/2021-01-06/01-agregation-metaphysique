@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+cat agregation*-metaphysique.txt | sort | uniq

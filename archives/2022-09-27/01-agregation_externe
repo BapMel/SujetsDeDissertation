@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+cat agregation_externe-*.txt | sort | uniq

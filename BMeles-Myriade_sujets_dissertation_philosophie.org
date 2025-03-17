@@ -1,6 +1,6 @@
 #+AUTHOR: Baptiste Mélès
 #+TITLE: Myriade des sujets de dissertation philosophique
-#+DATE: 14 mars 2025
+#+DATE: 17 mars 2025
 #+OPTIONS: ':nil *:t -:t ::t <:t H:4 \n:nil ^:t arch:headline author:t
 #+OPTIONS: c:nil creator:nil d:(not "LOGBOOK") date:t e:t email:nil
 #+OPTIONS: f:t inline:t num:t p:nil pri:nil stat:t tags:t tasks:t tex:t
@@ -28,25 +28,29 @@
 
 La « Myriade des sujets de dissertation philosophique » est une
 compilation de quelque 15 000 sujets de dissertation de philosophie,
-classés par ordre alphabétique, par type, par concours et par thème.
+classés par [[alpha][ordre alphabétique]], par [[type][type]], par [[concours][concours]] et par [[theme][thème]].
 
 Elle peut être utile :
 - aux étudiantes et étudiants souhaitant se préparer aux examens ou aux
   concours ;
-- aux enseignantes et enseignants de méthodologie philosophique
-  souhaitant montrer quel type de traitement appelle chaque type
-  de sujet (question totale, couple de notion, etc.) ;
-- aux examinatrices et examinateurs souhaitant reprendre un sujet déjà
-  donné ou au contraire s'assurer qu'un sujet ne l'a jamais été.
+- aux examinatrices et examinateurs souhaitant s'assurer qu'un sujet a
+  déjà été donné ou au contraire ne l'a jamais été ;
+- aux personnes enseignant la méthodologie de la dissertation et
+  souhaitant montrer [[type][quel type de traitement appelle chaque type
+  de sujet]] ([[qnTot][question totale]] — et plus précisément question [[qnTotQuant][quantifiée]]
+  ou [[qnTotMod][modalisée]]  —, [[qnPart][question partielle]], [[ntnUn][notion unique]], [[ntnCpl][couple
+  de notions]], [[ctn][citation]]).
 
 Cette méthode peut être utilisée en complément de la « Méthode de la
 dissertation philosophique » du même auteur
 (http://baptiste.meles.free.fr/site/B.Meles-Methode_dissertation.pdf).
 
-Tous les fichiers et programmes ayant servi à produire le présent
-document, ainsi que sa version la plus récente, sont archivés et
-partagés de manière pérenne sur Software Heritage à l'adresse
-https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/BapMel/SujetsDeDissertation.
+La dernière version de ce document peut être téléchargée à l'adresse
+https://github.com/BapMel/SujetsDeDissertation/blob/master/BMeles-Myriade_sujets_dissertation_philosophie.pdf[fn:1]
+Les fichiers ayant permis de créer ce document, ainsi que ses versions
+antérieures, sont déposés à l'adresse
+https://github.com/BapMel/SujetsDeDissertation[fn:2].
+
 
 L'auteur vous sera reconnaissant de lui signaler toute coquille
 ou erreur.
@@ -119,7 +123,7 @@ philosophiques/ (Paris, Vrin, 2016).
 
 
 
-* Tous les sujets par ordre alphabétique call_compte[:stdin triAlpha]()
+* <<alpha>> Tous les sujets par ordre alphabétique call_compte[:stdin triAlpha]()
 
 \noindent
 #+name: triAlpha
@@ -128,7 +132,7 @@ philosophiques/ (Paris, Vrin, 2016).
 #+END_SRC
 
 
-* Tri par type de sujet
+* <<type>> Tri par type de sujet
 
 Il existe trois grands types de sujets :
 
@@ -171,7 +175,8 @@ appellent des types de réponses distincts :
 *** <<qnTot>> Question totale : demande de décision (oui/non)
 
 Les questions totales sont celles qui /appellent une décision/,
-c'est-à-dire une réponse par oui ou non.
+c'est-à-dire une réponse par oui ou non. On trouvera ci-dessous la liste
+de [[qnTotTout][toutes les questions totales]].
 
 Parmi les questions totales, deux sous-catégories méritent une attention
 particulière :
@@ -187,7 +192,7 @@ particulière :
    « autorisé », « permis », etc.
 
 
-**** Toutes les questions totales call_compte[:stdin triQnTotales]()
+**** <<qnTotTout>> Toutes les questions totales call_compte[:stdin triQnTotales]()
 
 \mbox{} \\
 
@@ -290,7 +295,7 @@ type appellent l'examen d'une façon de parler.
 #+BEGIN_SRC sh :results output verbatim raw :exports results
 ./00-sujets | grep '«' | sed s/'$'/' \\\\'/g
 #+END_SRC
-* Tri par concours
+* <<concours>> Tri par concours
 
 ** Agrégation
 
@@ -370,7 +375,8 @@ type appellent l'examen d'une façon de parler.
 #+END_SRC
 
 
-* Tri par thème d'agrégation externe
+* <<theme>> Tri par thème d'agrégation externe
+
 ** Philosophie générale call_compte[:stdin triThmPh]()
 
 \noindent
@@ -432,3 +438,13 @@ type appellent l'examen d'une façon de parler.
 #+BEGIN_SRC sh :results output verbatim raw :exports results
 ./01-agregation-sciences_humaines | sed s/'$'/' \\\\'/g
 #+END_SRC
+
+* Footnotes
+
+[fn:1] Elle est archivée de manière pérenne sur Software Heritage à
+l'adresse
+https://archive.softwareheritage.org/browse/origin/content/?origin_url=https://github.com/BapMel/SujetsDeDissertation&path=BMeles-Myriade_sujets_dissertation_philosophie.pdf.
+
+[fn:2] Ils sont archivés de manière pérenne sur Software Heritage à
+l'adresse
+https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/BapMel/SujetsDeDissertation.

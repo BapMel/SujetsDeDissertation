@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+cat agregation*-sciences_humaines.txt | sort | uniq

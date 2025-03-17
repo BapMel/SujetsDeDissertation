@@ -1,0 +1,9 @@
+#!/bin/zsh
+
+nombre="10"
+filtre='\?'
+
+./00-sujets | \
+    grep "$filtre" | \
+    shuf -n"$nombre" | \
+    sed s/'^'/'- '/g 

@@ -45,10 +45,12 @@ Cette méthode peut être utilisée en complément de la « Méthode de la
 dissertation philosophique » du même auteur
 (http://baptiste.meles.free.fr/site/B.Meles-Methode_dissertation.pdf).
 
-Tous les fichiers et programmes ayant servi à produire le présent
-document, ainsi que sa version la plus récente, sont archivés et
-partagés de manière pérenne sur Software Heritage à l'adresse
-https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/BapMel/SujetsDeDissertation.
+La dernière version de ce document peut être téléchargée à l'adresse
+https://github.com/BapMel/SujetsDeDissertation/blob/master/BMeles-Myriade_sujets_dissertation_philosophie.pdf[fn:1]
+Les fichiers ayant permis de créer ce document, ainsi que ses versions
+antérieures, sont déposés à l'adresse
+https://github.com/BapMel/SujetsDeDissertation[fn:2].
+
 
 L'auteur vous sera reconnaissant de lui signaler toute coquille
 ou erreur.
@@ -374,6 +376,7 @@ type appellent l'examen d'une façon de parler.
 
 
 * <<theme>> Tri par thème d'agrégation externe
+
 ** Philosophie générale call_compte[:stdin triThmPh]()
 
 \noindent
@@ -435,3 +438,13 @@ type appellent l'examen d'une façon de parler.
 #+BEGIN_SRC sh :results output verbatim raw :exports results
 ./01-agregation-sciences_humaines | sed s/'$'/' \\\\'/g
 #+END_SRC
+
+* Footnotes
+
+[fn:1] Elle est archivée de manière pérenne sur Software Heritage à
+l'adresse
+https://archive.softwareheritage.org/browse/origin/content/?origin_url=https://github.com/BapMel/SujetsDeDissertation&path=BMeles-Myriade_sujets_dissertation_philosophie.pdf.
+
+[fn:2] Ils sont archivés de manière pérenne sur Software Heritage à
+l'adresse
+https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/BapMel/SujetsDeDissertation.

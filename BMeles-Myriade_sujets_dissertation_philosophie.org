@@ -1,6 +1,6 @@
 #+AUTHOR: Baptiste Mélès
 #+TITLE: Myriade des sujets de dissertation philosophique
-#+DATE: 14 mars 2025
+#+DATE: 17 mars 2025
 #+OPTIONS: ':nil *:t -:t ::t <:t H:4 \n:nil ^:t arch:headline author:t
 #+OPTIONS: c:nil creator:nil d:(not "LOGBOOK") date:t e:t email:nil
 #+OPTIONS: f:t inline:t num:t p:nil pri:nil stat:t tags:t tasks:t tex:t
@@ -33,11 +33,13 @@ classés par [[alpha][ordre alphabétique]], par [[type][type]], par [[concour
 Elle peut être utile :
 - aux étudiantes et étudiants souhaitant se préparer aux examens ou aux
   concours ;
-- aux enseignantes et enseignants de méthodologie philosophique
-  souhaitant montrer quel type de traitement appelle chaque type
-  de sujet (question totale, couple de notion, etc.) ;
-- aux examinatrices et examinateurs souhaitant reprendre un sujet déjà
-  donné ou au contraire s'assurer qu'un sujet ne l'a jamais été.
+- aux examinatrices et examinateurs souhaitant s'assurer qu'un sujet a
+  déjà été donné ou au contraire ne l'a jamais été ;
+- aux personnes enseignant la méthodologie de la dissertation et
+  souhaitant montrer [[type][quel type de traitement appelle chaque type
+  de sujet]] ([[qnTot][question totale]] — et plus précisément question [[qnTotQuant][quantifiée]]
+  ou [[qnTotMod][modalisée]]  —, [[qnPart][question partielle]], [[ntnUn][notion unique]], [[ntnCpl][couple
+  de notions]], [[ctn][citation]]).
 
 Cette méthode peut être utilisée en complément de la « Méthode de la
 dissertation philosophique » du même auteur

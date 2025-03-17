@@ -28,7 +28,7 @@
 
 La « Myriade des sujets de dissertation philosophique » est une
 compilation de quelque 15 000 sujets de dissertation de philosophie,
-classés par ordre alphabétique, par type, par concours et par thème.
+classés par [[alpha][ordre alphabétique]], par [[type][type]], par [[concours][concours]] et par [[theme][thème]].
 
 Elle peut être utile :
 - aux étudiantes et étudiants souhaitant se préparer aux examens ou aux
@@ -119,7 +119,7 @@ philosophiques/ (Paris, Vrin, 2016).
 
 
 
-* Tous les sujets par ordre alphabétique call_compte[:stdin triAlpha]()
+* <<alpha>> Tous les sujets par ordre alphabétique call_compte[:stdin triAlpha]()
 
 \noindent
 #+name: triAlpha
@@ -128,7 +128,7 @@ philosophiques/ (Paris, Vrin, 2016).
 #+END_SRC
 
 
-* Tri par type de sujet
+* <<type>> Tri par type de sujet
 
 Il existe trois grands types de sujets :
 
@@ -171,7 +171,8 @@ appellent des types de réponses distincts :
 *** <<qnTot>> Question totale : demande de décision (oui/non)
 
 Les questions totales sont celles qui /appellent une décision/,
-c'est-à-dire une réponse par oui ou non.
+c'est-à-dire une réponse par oui ou non. On trouvera ci-dessous la liste
+de [[qnTotTout][toutes les questions totales]].
 
 Parmi les questions totales, deux sous-catégories méritent une attention
 particulière :
@@ -187,7 +188,7 @@ particulière :
    « autorisé », « permis », etc.
 
 
-**** Toutes les questions totales call_compte[:stdin triQnTotales]()
+**** <<qnTotTout>> Toutes les questions totales call_compte[:stdin triQnTotales]()
 
 \mbox{} \\
 
@@ -290,7 +291,7 @@ type appellent l'examen d'une façon de parler.
 #+BEGIN_SRC sh :results output verbatim raw :exports results
 ./00-sujets | grep '«' | sed s/'$'/' \\\\'/g
 #+END_SRC
-* Tri par concours
+* <<concours>> Tri par concours
 
 ** Agrégation
 
@@ -370,7 +371,7 @@ type appellent l'examen d'une façon de parler.
 #+END_SRC
 
 
-* Tri par thème d'agrégation externe
+* <<theme>> Tri par thème d'agrégation externe
 ** Philosophie générale call_compte[:stdin triThmPh]()
 
 \noindent
